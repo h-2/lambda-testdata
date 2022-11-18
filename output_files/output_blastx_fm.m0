@@ -14,7 +14,7 @@ An efficient, generic C++ library for sequence analysis. BMC Bioinformatics,
 
 
 
-Database: /project/labench/md5sums_lambda_tests/lambda-testdata/output_files/db_prot_fm.fasta.gz.lba
+Database: db_prot_fm.fasta.gz.lba
            240 sequences; 123351 total letters
 
 
@@ -90774,7 +90774,7 @@ Lambda     K      H
 Effective search space used: 12335100
 
 
-  Database: /project/labench/md5sums_lambda_tests/lambda-testdata/output_files/db_prot_fm.fasta.gz.lba
+  Database: db_prot_fm.fasta.gz.lba
   Number of letters in database: 123351
   Number of sequences in database:  240
 
