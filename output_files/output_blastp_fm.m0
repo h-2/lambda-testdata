@@ -17432,8 +17432,6 @@ AAAA02029623.1.1373                                                  48  8e-09
 AACY020304192.1.1216                                                 48  1e-08
 A45315.1.1521                                                        47  1e-08
 AAAA02049656.53.1588                                                 47  1e-08
-AACY020068177.376.1853                                               46  3e-08
-AACY020259437.2024.3522                                              46  3e-08
 AACY020061762.7.1504                                                 45  5e-08
 AACY020311045.179.1696                                               45  5e-08
 AACY020255495.903.2404                                               43  3e-07
@@ -17602,28 +17600,6 @@ Length=512
 Query  1    CARCGT*PNISRHELTTAMQHLCFVRP  27 
             CARCGT*PNISRHELTT M HL  + P
 Sbjct  141  CARCGT*PNISRHELTTTMHHLSQLSP  167
-
-
-> AACY020068177.376.1853
-Length=492
-
- Score =  46.6 bits (109), Expect =  3e-08
- Identities = 20/22 (91%), Positives = 20/22 (91%), Gaps = 0/22 (0%)
-
-Query  1    CARCGT*PNISRHELTTAMQHL  22 
-            CARCGT*PN SRHELTT MQHL
-Sbjct  134  CARCGT*PNTSRHELTTTMQHL  155
-
-
-> AACY020259437.2024.3522
-Length=499
-
- Score =  46.6 bits (109), Expect =  3e-08
- Identities = 20/22 (91%), Positives = 20/22 (91%), Gaps = 0/22 (0%)
-
-Query  1    CARCGT*PNISRHELTTAMQHL  22 
-            CARCGT*PN SRHELTT MQHL
-Sbjct  138  CARCGT*PNTSRHELTTTMQHL  159
 
 
 > AACY020061762.7.1504
