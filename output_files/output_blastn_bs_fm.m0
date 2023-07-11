@@ -2273,6 +2273,7 @@ ref275                                                               79  2e-16
 ref125                                                               77  1e-15
 ref65                                                                76  2e-15
 ref435                                                               75  4e-15
+ref812                                                               64  7e-12
 
 ALIGNMENTS
 > ref34
@@ -2449,6 +2450,22 @@ Length=789
 Query  57   TAAAAAAATAACTCAAAAATTAAAAAC----ACTACTCTTCCAAAAATCCTAAATTCA  4  
             |  | ||||  |||| |  |||| | |    ||| ||||||||||  ||  || ||||
 Sbjct  165  TGGAGAAATGGCTCAGAGGTTAAGAGCACTGACTGCTCTTCCAAAGGTC--AAGTTCA  220
+
+
+> ref812
+Length=1184
+
+ Score =  64.4 bits (70), Expect =  7e-12
+ Identities = 66/84 (79%), Gaps = 7/84 (8%)
+ Strand=Minus/Minus
+
+Query  80   ATAAAAAAAAACCCTCTAAAAAATAAAAAAATAA-CTCAAAAATTAAA-----AACACTA  27 
+            |||| |||  | |   ||||||| |||||||||     |  |  ||||       | |  
+Sbjct  506  ATAAGAAAGTAACAATTAAAAAA-AAAAAAATAGTAGTAGGAGCTAAAGAGATGGCTCAG  564
+
+Query  26   CTCTTCCAAAAATCCTAAATTCAA  3  
+            |||||||| |  |||| | |||||
+Sbjct  565  CTCTTCCAGAGGTCCTGAGTTCAA  588
 
 
 
@@ -4265,6 +4282,9 @@ Length=130
 Sequences producing significant alignments:                       (Bits)  Value
 
 ref62                                                               235  2e-63
+ref211                                                               65  4e-12
+ref875                                                               65  4e-12
+ref998                                                               58  6e-10
 
 ALIGNMENTS
 > ref62
@@ -4285,6 +4305,54 @@ Sbjct  220  TTAAATAAAACAGAGGAGAAGCACTGGAGGGGGCTGCTCAAGGATCTATAATGATGTGCA  279
 Query  121  TCGTAATAAA  130
             |||| || ||
 Sbjct  280  TCGTGATGAA  289
+
+
+> ref211
+Length=1210
+
+ Score =  65.3 bits (71), Expect =  4e-12
+ Identities = 79/105 (75%), Gaps = 6/105 (6%)
+ Strand=Minus/Plus
+
+Query  105   ATTTTTGAGTAGTTTTTTTTAGTGTTTTTTTTTTGTTTTATTTAAGATTTTGTTTTATTT  46  
+             | | |||  || | | | |||      | | | ||  ||   |    |     ||   | 
+Sbjct  970   ACTCTTGCCTA-TCTCTCTTA-CCCCCTCTCTCTGCATTCCCT----TCCCCCTTCTCTC  1023
+
+Query  45    TGTATGAATTGGAAAAGTTTTTTAATTTTTATTTTTTTATTTTTT  1   
+                 |||    |    |  | |   | | || | | |   | | |
+Sbjct  1024  CACGTGACCATGGCTGGCCTCTACTTCTCTACTCTCTCCCTCTCT  1068
+
+
+> ref875
+Length=1023
+
+ Score =  65.3 bits (71), Expect =  4e-12
+ Identities = 63/80 (79%), Gaps = 6/80 (8%)
+ Strand=Minus/Minus
+
+Query  81   TTTTTTTTTTGTTTTATTTAAGATTTTGTTTTATTTTGTATGAATTGGAAAAGTTTTTTA  22 
+            || |||||||||||| |||  | |||||||||  ||||  |   ||      ||||||| 
+Sbjct  888  TTGTTTTTTTGTTTTGTTTTTGTTTTTGTTTTGGTTTG-GTTTTTT-----GGTTTTTTG  941
+
+Query  21   ATTTTTATTTTTTTATTTTT  2  
+              |||| ||||||| || ||
+Sbjct  942  GGTTTTTTTTTTTTGTTGTT  961
+
+
+> ref998
+Length=908
+
+ Score =  58.1 bits (63), Expect =  6e-10
+ Identities = 68/93 (73%), Gaps = 7/93 (8%)
+ Strand=Minus/Plus
+
+Query  93   TTTTTTTTAGTGTTTTTTTTTTGTTTTATTTAAGATTTTGTTTTATTTTGTATGAATTGG  34 
+            | | | |   | | | | | |   | | | |     | | | |  || | | |||  |  
+Sbjct  536  TCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTTTCTCTTTGACCT--  593
+
+Query  33   AAAAGTTTTTTAATTTTTATTTTTTTATTTTTT  1  
+                   ||||      | || |  | | | | 
+Sbjct  594  -----CCTTTTCCCCCCTGTTCTCCTCTCTCTC  621
 
 
 
@@ -5152,6 +5220,11 @@ ref71                                                               127  7e-31
 ref71                                                               116  1e-27
 ref71                                                                69  2e-13
 ref71                                                                69  2e-13
+ref116                                                               61  5e-11
+ref297                                                               61  5e-11
+ref297                                                               58  3e-10
+ref548                                                               58  3e-10
+ref492                                                               58  6e-10
 
 ALIGNMENTS
 > ref71
@@ -5252,6 +5325,70 @@ Sbjct  357  GTGTGTGTGTGAAAGGGTGTGTGAATGTGTATGAGTGAGTGTGTGTATGTGCATGTGTGT  416
 Query  48   TATTTAATATAAATATATTTATATATATATATAAATATAATTATATA  2  
               || | | | | | | ||| | | | | | |   | | | | | | 
 Sbjct  417  GTTTGAGTGTGAGTGTGTTTGTGTGTGTGTGT--GTGTGAATGTGTG  461
+
+
+> ref116
+Length=864
+
+ Score =  61.7 bits (67), Expect =  5e-11
+ Identities = 50/59 (85%), Gaps = 4/59 (7%)
+ Strand=Plus/Plus
+
+Query  1    ATATATAATTATATTTATATATATATATAAATATATTTATAT---TAAATA-AAAAATA  55 
+            ||| | |  |||| ||| | | ||| ||| | | | | |||     ||| | | |||||
+Sbjct  798  ATACACACATATACTTACACACATACATACAGACACTCATACACACAAACACACAAATA  856
+
+
+> ref297
+Length=984
+
+ Score =  61.7 bits (67), Expect =  5e-11
+ Identities = 81/106 (76%), Gaps = 5/106 (5%)
+ Strand=Plus/Plus
+
+Query  1    ATATATAATTATATTTATATATATATATAAATATATTTATAT-TAAATA-AAAAATAATC  58 
+            | | | |  || |   | | | | | | | | | |   | |   | | | | | | | ||
+Sbjct  648  ACACACACATACACAGACACACACACACAGACACACACACACACAGACACACACACACTC  707
+
+Query  59   AC-TCCA-ATCTCAATTCTTACAC-CCCACATTTTTTAACTTCTTT  101
+            ||   || |     |  | ||||| | |||||  ||||   |  ||
+Sbjct  708  ACACACACACACACACACCTACACACACACATACTTTAGGCTACTT  753
+
+
+> ref297
+Length=984
+
+ Score =  59.0 bits (64), Expect =  3e-10
+ Identities = 38/42 (90%), Gaps = 0/42 (0%)
+ Strand=Plus/Plus
+
+Query  1    ATATATAATTATATTTATATATATATATAAATATATTTATAT  42 
+            | | | | | | |  || | | | ||| | | | |   | | 
+Sbjct  632  ACACACACTCACACCTACACACACATACACAGACACACACAC  673
+
+
+> ref548
+Length=901
+
+ Score =  59.0 bits (64), Expect =  3e-10
+ Identities = 38/42 (90%), Gaps = 0/42 (0%)
+ Strand=Plus/Plus
+
+Query  1    ATATATAATTATATTTATATATATATATAAATATATTTATAT  42 
+            |||||||  |||||| | ||||||||| | | | |   | | 
+Sbjct  525  ATATATATATATATTCACATATATATACACACACACACACAC  566
+
+
+> ref492
+Length=878
+
+ Score =  58.1 bits (63), Expect =  6e-10
+ Identities = 36/39 (92%), Gaps = 0/39 (0%)
+ Strand=Minus/Minus
+
+Query  42  ATATAAATATATTTATATATATATATAAATATAATTATA  4 
+           || |   | | ||| ||| | | | |   | | ||| ||
+Sbjct  5   ATGTGTGTGTGTTTGTATGTGTGTGTGTGTGTGATTTTA  43
 
 
 
@@ -6268,6 +6405,7 @@ Length=130
 Sequences producing significant alignments:                       (Bits)  Value
 
 ref91                                                               235  2e-63
+ref731                                                               64  7e-12
 
 ALIGNMENTS
 > ref91
@@ -6288,6 +6426,22 @@ Sbjct  500  GAAAACTGAAGAAGCTAGAAGTTGAAAAGACCTACAACATTAAATTAGCAGAATATTTAT  559
 Query  121  AAAAATAACT  130
              |||||| ||
 Sbjct  560  GAAAATAGCT  569
+
+
+> ref731
+Length=452
+
+ Score =  64.4 bits (70), Expect =  7e-12
+ Identities = 62/74 (84%), Gaps = 7/74 (9%)
+ Strand=Minus/Plus
+
+Query  86   TTTAATTTTT-AGTT---TTTTTAGTTTTTTTTTTTTTTTTA-AAATTTTTAGTATAGAA  32 
+            |||| |  || ||     | || ||      |||| |||| | || || | ||  ||  |
+Sbjct  310  TTTACTCCTTGAGCCACATCTTCAGCCCCCCTTTTCTTTTCATAATTTCTCAGCTTA-CA  368
+
+Query  31   TATT-TTTTTGTTT  19 
+            |||  | || || |
+Sbjct  369  TATCATCTTAGTCT  382
 
 
 
@@ -6383,6 +6537,7 @@ ref892                                                              109  2e-25
 ref768                                                              106  1e-24
 ref802                                                              106  1e-24
 ref109                                                              103  2e-23
+ref286                                                               58  6e-10
 
 ALIGNMENTS
 > ref93
@@ -6671,6 +6826,18 @@ Sbjct  997   TGGACCCAGTTATACTACTCCTGGACATATATCCAGAAGATGCTCCAACTTGTAATAAGG  1056
 Query  107   ACACAAACTCCACTATATTCATAA  130 
              |||||  ||||||||| |||||| 
 Sbjct  1057  ACACATGCTCCACTATGTTCATAG  1080
+
+
+> ref286
+Length=925
+
+ Score =  58.1 bits (63), Expect =  6e-10
+ Identities = 45/54 (83%), Gaps = 5/54 (9%)
+ Strand=Minus/Minus
+
+Query  82   AAAAAAATTCC-----AACTAATAATAAAAACACAAACTCCACTATATTCATAA  130
+            || | ||||||     |||   ||| ||  |||||  ||||||||| |||||| 
+Sbjct  162  AATAGAATTCCATGTGAACCGGTAAGAAGGACACATGCTCCACTATGTTCATAG  215
 
 
 
@@ -8346,6 +8513,7 @@ Length=129
 Sequences producing significant alignments:                       (Bits)  Value
 
 ref112                                                              233  7e-63
+ref427                                                               58  3e-10
 
 ALIGNMENTS
 > ref112
@@ -8366,6 +8534,18 @@ Sbjct  538  ATGTGACCCCTGTGAAAAGGTCATTTGAGAAAAGGTCATTTGACCCCCAAAGGGGTTGAG  597
 Query  121  AATTATTGT  129
             ||| | |||
 Sbjct  598  AATCACTGT  606
+
+
+> ref427
+Length=851
+
+ Score =  59.0 bits (64), Expect =  3e-10
+ Identities = 38/42 (90%), Gaps = 0/42 (0%)
+ Strand=Plus/Plus
+
+Query  1    TTGTAATTTTGTTATTGTTATGAATTATAATGTAGATATGTG  42 
+             |||||||||| || ||||||||||||||   || |||  ||
+Sbjct  400  CTGTAATTTTGCTACTGTTATGAATTATAGCATAAATACCTG  441
 
 
 
@@ -9338,6 +9518,8 @@ ref196                                                               85  4e-18
 ref282                                                               75  4e-15
 ref401                                                               68  3e-13
 ref617                                                               68  3e-13
+ref31                                                                67  1e-12
+ref139                                                               59  2e-10
 
 ALIGNMENTS
 > ref130
@@ -9464,6 +9646,30 @@ Query  5    TGTTTATATGTGTGTATTTGTGTGTGTGAATGTATGTGTATATAT  49
 Sbjct  70   TGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGT  114
 
 
+> ref31
+Length=852
+
+ Score =  67.1 bits (73), Expect =  1e-12
+ Identities = 44/49 (90%), Gaps = 0/49 (0%)
+ Strand=Minus/Minus
+
+Query  5    TGTTTATATGTGTGTATTTGTGTGTGTGAATGTATGTGTATATATGGAG  53 
+            ||| | | ||||||| | ||||||||||  ||| ||||| | | | |||
+Sbjct  213  TGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTTTGTTGAG  261
+
+
+> ref139
+Length=738
+
+ Score =  59.9 bits (65), Expect =  2e-10
+ Identities = 37/40 (93%), Gaps = 0/40 (0%)
+ Strand=Minus/Plus
+
+Query  50   CATATATACACATACATTCACACACACAAATACACACATA  11 
+            || | ||||||| |||  ||||||||||  |||||||| |
+Sbjct  76   CACACATACACACACACACACACACACACTTACACACACA  115
+
+
 
 Lambda     K      H
    0.625   0.4100   0.7800
@@ -9488,6 +9694,24 @@ ref650                                                               74  8e-15
 ref617                                                               73  1e-14
 ref378                                                               70  9e-14
 ref403                                                               68  6e-13
+ref202                                                               67  1e-12
+ref31                                                                66  2e-12
+ref207                                                               65  4e-12
+ref214                                                               64  7e-12
+ref390                                                               64  7e-12
+ref401                                                               64  7e-12
+ref552                                                               64  7e-12
+ref641                                                               64  7e-12
+ref702                                                               64  7e-12
+ref6                                                                 63  1e-11
+ref117                                                               63  1e-11
+ref360                                                               63  1e-11
+ref401                                                               63  1e-11
+ref528                                                               63  1e-11
+ref771                                                               63  1e-11
+ref86                                                                61  5e-11
+ref107                                                               61  5e-11
+ref31                                                                60  9e-11
 
 ALIGNMENTS
 > ref131
@@ -9596,6 +9820,222 @@ Length=591
 Query  42   AAACAAAAAAATATATATATATATATATATATATATATATAT  1  
             |  |||     | | | | | | | | | | | | | | | |
 Sbjct  63   AGCCAAGGGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGT  104
+
+
+> ref202
+Length=932
+
+ Score =  67.1 bits (73), Expect =  1e-12
+ Identities = 41/44 (93%), Gaps = 0/44 (0%)
+ Strand=Minus/Minus
+
+Query  44   AAAAACAAAAAAATATATATATATATATATATATATATATATAT  1  
+            |       ||   | | | | | | | | | | | | | | | |
+Sbjct  640  AGGGGTGTAAGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGT  683
+
+
+> ref31
+Length=852
+
+ Score =  66.2 bits (72), Expect =  2e-12
+ Identities = 39/41 (95%), Gaps = 0/41 (0%)
+ Strand=Minus/Minus
+
+Query  1    ATATATATATATATATATATATATATATATATTTTTTTGTT  41 
+             | | | | | | | | | | | | | | | | | ||||||
+Sbjct  218  GTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTTTGTT  258
+
+
+> ref207
+Length=906
+
+ Score =  65.3 bits (71), Expect =  4e-12
+ Identities = 37/38 (97%), Gaps = 0/38 (0%)
+ Strand=Minus/Minus
+
+Query  39  CAAAAAAATATATATATATATATATATATATATATATA  2 
+           ||    ||| | | | | | | | | | | | | ||||
+Sbjct  13  CAGGGTAATGTGTGTGTGTGTGTGTGTGTGTGTGTATA  50
+
+
+> ref214
+Length=384
+
+ Score =  64.4 bits (70), Expect =  7e-12
+ Identities = 38/40 (95%), Gaps = 0/40 (0%)
+ Strand=Minus/Minus
+
+Query  40   ACAAAAAAATATATATATATATATATATATATATATATAT  1  
+             ||   | |||| ||| | | ||||| ||||| ||||| |
+Sbjct  195  GCATGGATATATGTATGTGTGTATATGTATATGTATATGT  234
+
+
+> ref390
+Length=715
+
+ Score =  64.4 bits (70), Expect =  7e-12
+ Identities = 35/35 (100%), Gaps = 0/35 (0%)
+ Strand=Plus/Plus
+
+Query  1    ATATATATATATATATATATATATATATATATTTT  35 
+            | | | | | | | | | | | | | | | | || 
+Sbjct  345  ACACACACACACACACACACACACACACACACTTC  379
+
+
+> ref401
+Length=797
+
+ Score =  64.4 bits (70), Expect =  7e-12
+ Identities = 38/40 (95%), Gaps = 0/40 (0%)
+ Strand=Minus/Minus
+
+Query  1    ATATATATATATATATATATATATATATATATTTTTTTGT  40 
+             | | | | | | | | | | | | | | | | | |||||
+Sbjct  690  GTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTATTTGT  729
+
+
+> ref552
+Length=1095
+
+ Score =  64.4 bits (70), Expect =  7e-12
+ Identities = 38/40 (95%), Gaps = 0/40 (0%)
+ Strand=Minus/Minus
+
+Query  40   ACAAAAAAATATATATATATATATATATATATATATATAT  1  
+            || ||    | | | | | | | | | | | | | | | |
+Sbjct  538  ACGAATGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGT  577
+
+
+> ref641
+Length=1153
+
+ Score =  64.4 bits (70), Expect =  7e-12
+ Identities = 35/35 (100%), Gaps = 0/35 (0%)
+ Strand=Minus/Minus
+
+Query  35    AAAATATATATATATATATATATATATATATATAT  1   
+             ||||| | | | | | | | | | | | | | |||
+Sbjct  1051  AAAATGTGTGTGTGTGTGTGTGTGTGTGTGTGTAT  1085
+
+
+> ref702
+Length=655
+
+ Score =  64.4 bits (70), Expect =  7e-12
+ Identities = 35/35 (100%), Gaps = 0/35 (0%)
+ Strand=Plus/Plus
+
+Query  1    ATATATATATATATATATATATATATATATATTTT  35 
+            | | | | | | | | | | ||| ||| | |||||
+Sbjct  391  ACACACACACACACACACACATACATACACATTTT  425
+
+
+> ref6
+Length=655
+
+ Score =  63.5 bits (69), Expect =  1e-11
+ Identities = 39/42 (93%), Gaps = 0/42 (0%)
+ Strand=Minus/Minus
+
+Query  42  AAACAAAAAAATATATATATATATATATATATATATATATAT  1 
+           |||    |  || ||||| | | | | | | | | | | | |
+Sbjct  53  AAATGTGAGTATGTATATGTGTGTGTGTGTGTGTGTGTGTGT  94
+
+
+> ref117
+Length=988
+
+ Score =  63.5 bits (69), Expect =  1e-11
+ Identities = 45/52 (87%), Gaps = 0/52 (0%)
+ Strand=Minus/Minus
+
+Query  52   AAAATCCAAAAAACAAAAAAATATATATATATATATATATATATATATATAT  1  
+              |||  |   |||       | | | | | | | | | | | | | | | |
+Sbjct  58   GGAATGTATGTAACGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGT  109
+
+
+> ref360
+Length=558
+
+ Score =  63.5 bits (69), Expect =  1e-11
+ Identities = 36/37 (97%), Gaps = 0/37 (0%)
+ Strand=Minus/Minus
+
+Query  38   AAAAAAATATATATATATATATATATATATATATATA  2  
+             || |  | | | | | | | | | | | | | | | 
+Sbjct  289  GAATAGGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTG  325
+
+
+> ref401
+Length=797
+
+ Score =  63.5 bits (69), Expect =  1e-11
+ Identities = 49/56 (88%), Gaps = 2/56 (4%)
+ Strand=Minus/Minus
+
+Query  54   CTAAAATCCA-AAAAACAAAAAAAT-ATATATATATATATATATATATATATATAT  1  
+            ||| | | || |||  | ||  | | || | | ||| | | | | | | | | | |
+Sbjct  652  CTAGAGTGCATAAATTCTAATGAGTCATGTGTGTATGTGTGTGTGTGTGTGTGTGT  707
+
+
+> ref528
+Length=631
+
+ Score =  63.5 bits (69), Expect =  1e-11
+ Identities = 41/44 (93%), Gaps = 1/44 (2%)
+ Strand=Minus/Minus
+
+Query  43   AAAACAA-AAAAATATATATATATATATATATATATATATATAT  1  
+            ||  ||       | | | | | | | | | | | | | | | |
+Sbjct  577  AAGCCAGTGGCGGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGT  620
+
+
+> ref771
+Length=818
+
+ Score =  63.5 bits (69), Expect =  1e-11
+ Identities = 46/51 (90%), Gaps = 2/51 (4%)
+ Strand=Minus/Minus
+
+Query  49   ATCCAAAAA-ACAAAAAAATAT-ATATATATATATATATATATATATATAT  1  
+            ||| ||| | |||   ||||||  | | | | | | | | | | | | | |
+Sbjct  277  ATCTAAAGATACATGTAAATATGGTGTGTGTGTGTGTGTGTGTGTGTGTGT  327
+
+
+> ref86
+Length=857
+
+ Score =  61.7 bits (67), Expect =  5e-11
+ Identities = 35/36 (97%), Gaps = 0/36 (0%)
+ Strand=Minus/Minus
+
+Query  36   AAAAATATATATATATATATATATATATATATATAT  1  
+             | | | | | | | | | | | | | | | | | |
+Sbjct  497  GACAGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGT  532
+
+
+> ref107
+Length=483
+
+ Score =  61.7 bits (67), Expect =  5e-11
+ Identities = 35/36 (97%), Gaps = 0/36 (0%)
+ Strand=Minus/Minus
+
+Query  36   AAAAATATATATATATATATATATATATATATATAT  1  
+            ||  || ||| ||| ||| ||| | | ||| ||| |
+Sbjct  143  AAGCATGTATGTATGTATGTATGTGTGTATGTATGT  178
+
+
+> ref31
+Length=852
+
+ Score =  60.8 bits (66), Expect =  9e-11
+ Identities = 33/33 (100%), Gaps = 0/33 (0%)
+ Strand=Minus/Minus
+
+Query  33   AATATATATATATATATATATATATATATATAT  1  
+              | | | | | | | | | | | | | | | |
+Sbjct  211  GGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGT  243
 
 
 
@@ -9927,6 +10367,9 @@ ref131                                                               75  4e-15
 ref275                                                               71  5e-14
 ref254                                                               70  9e-14
 ref678                                                               69  2e-13
+ref458                                                               66  2e-12
+ref991                                                               66  2e-12
+ref275                                                               62  3e-11
 
 ALIGNMENTS
 > ref137
@@ -10167,6 +10610,46 @@ Length=1072
 Query  80   ATATATATATATATATATACATATATATATATAAATTTATATA  38 
             |||||||||||| | | | | | | | | | |   | | | | 
 Sbjct  610  ATATATATATATGTGTGTGCGTGTGTGTGTGTGTGTGTGTGTG  652
+
+
+> ref458
+Length=1172
+
+ Score =  66.2 bits (72), Expect =  2e-12
+ Identities = 58/70 (83%), Gaps = 2/70 (3%)
+ Strand=Plus/Plus
+
+Query  30   TATTAAATTAT-ATAAATTTATAT-ATATATATGTATATATATATATATATATAAATAAA  87 
+             |  |||| |  |||    ||||| ||||| ||| ||| ||| ||| ||| ||| ||| |
+Sbjct  255  CACAAAATGACAATATGCATATATGATATACATGCATACATACATACATACATACATACA  314
+
+Query  88   TAAATAAATA  97 
+            |  || ||||
+Sbjct  315  TTCATGAATA  324
+
+
+> ref991
+Length=968
+
+ Score =  66.2 bits (72), Expect =  2e-12
+ Identities = 47/53 (89%), Gaps = 1/53 (2%)
+ Strand=Minus/Plus
+
+Query  81  TATATATATATATATATATACATATATATATATAAATTTATATAATTTAATAA  29
+           |||||||||||||||||||| |||||||||||||||| | |   | | |||||
+Sbjct  1   TATATATATATATATATATATATATATATATATAAATGTGTGCTA-TCAATAA  52
+
+
+> ref275
+Length=998
+
+ Score =  62.6 bits (68), Expect =  3e-11
+ Identities = 49/59 (83%), Gaps = 0/59 (0%)
+ Strand=Minus/Plus
+
+Query  103  TATTTATATTTATTTATTTATTTATATATATATATATATATACATATATATATATAAAT  45 
+             |  || || |||  ||  ||  ||| |||| || ||| | | ||| ||| ||||| ||
+Sbjct  594  CACATACATATATACATACATAAATACATATGTACATACACAGATACATAGATATAGAT  652
 
 
 
@@ -14011,6 +14494,7 @@ Length=130
 Sequences producing significant alignments:                       (Bits)  Value
 
 ref195                                                              235  2e-63
+ref708                                                               58  6e-10
 
 ALIGNMENTS
 > ref195
@@ -14031,6 +14515,22 @@ Sbjct  443  TAGAAGTTCTCTGGTAGAATTCTTGGGCTTGCTTATGTATATTTTCATATCATCTGCAAA  502
 Query  121  TAATAATAAC  130
             || | |||||
 Sbjct  503  TAGTGATAAC  512
+
+
+> ref708
+Length=825
+
+ Score =  58.1 bits (63), Expect =  6e-10
+ Identities = 84/113 (74%), Gaps = 7/113 (6%)
+ Strand=Minus/Minus
+
+Query  117  GTAGATGATATGAAAATATATATAAGTAAGTTTAAGAATTTTATTAGAGAATTTTTATAG  58 
+            |||  ||   |||| || ||| | |||  || |  ||||||| |   |  || | | |||
+Sbjct  654  GTAAGTGGAGTGAAGATGTATGTGAGTGGGTCT--GAATTTTGT--AAATATGTATGTAG  709
+
+Query  57   TTGATAAATAATTTTAGTAAAGTTGTTAG-ATATAAAATTAAGTTAAATAAAT  6  
+             |  |   |||   | |||||  ||| ||  |||   || ||  |   |  ||
+Sbjct  710  CT-GTGTGTAAGAGT-GTAAATGTGTGAGTGTATGGTATGAATATGTGTGTAT  760
 
 
 
@@ -14454,6 +14954,7 @@ Sequences producing significant alignments:                       (Bits)  Value
 
 ref203                                                              235  2e-63
 ref228                                                               71  5e-14
+ref870                                                               62  3e-11
 
 ALIGNMENTS
 > ref203
@@ -14490,6 +14991,22 @@ Sbjct  342  TTTTGTGTCAACTTGACACAGGCTGGAGTTATTACAGAGAAAGGAACT-TCAGTTGAGGA  400
 Query  59   AATACCTCTATTAAAAAAACCTATAAA  33 
             | | |||| || | |   | || ||| 
 Sbjct  401  AGTGCCTCCATGAGATCCAGCTGTAAG  427
+
+
+> ref870
+Length=1036
+
+ Score =  62.6 bits (68), Expect =  3e-11
+ Identities = 66/87 (76%), Gaps = 9/87 (10%)
+ Strand=Minus/Minus
+
+Query  111   TTTTATATCAACTTAACACAAACTAAAACCAT--------AATTAACTCTCAATTAAAAA  60  
+             |||| ||||||||| |||||| ||  |   ||        ||  | || ||| |     |
+Sbjct  941   TTTTGTATCAACTTGACACAAGCTGGAGTTATCACAGAGAAAGGAGCT-TCAGTAGGGGA  999 
+
+Query  59    AATACCTCTATTAAAAAAACCTATAAA  33  
+             ||| |||| |  | |   | || ||| 
+Sbjct  1000  AATGCCTCCACCAGATCCAGCTGTAAG  1026
 
 
 
@@ -14639,6 +15156,7 @@ ref226                                                               86  2e-18
 ref34                                                                77  1e-15
 ref65                                                                74  8e-15
 ref435                                                               73  1e-14
+ref125                                                               64  7e-12
 
 ALIGNMENTS
 > ref207
@@ -14807,6 +15325,22 @@ Length=789
 Query  70   TTGAAGAGATGGTTTAGAGGATAAGAGTATTGATTGTTTTTTTAGAGGTT  119
              || ||| |||| | ||||| |||||| | ||| || | ||  | |||| 
 Sbjct  164  CTGGAGAAATGGCTCAGAGGTTAAGAGCACTGACTGCTCTTCCAAAGGTC  213
+
+
+> ref125
+Length=832
+
+ Score =  64.4 bits (70), Expect =  7e-12
+ Identities = 52/64 (81%), Gaps = 7/64 (11%)
+ Strand=Minus/Minus
+
+Query  130  ATTAAACTCAAAACCTCTAAAAAAACAATCAATACTCTTATCCTCTAAACCATCTCTTCA  71 
+            ||| ||||||  ||||||  |  | ||        ||||| || |||| ||||||   ||
+Sbjct  393  ATTGAACTCAGGACCTCTGGAGGAGCAG-------TCTTAACCACTAAGCCATCTTGCCA  445
+
+Query  70   ACCC  67 
+             |||
+Sbjct  446  GCCC  449
 
 
 
@@ -15559,6 +16093,10 @@ ref105                                                               87  6e-19
 ref447                                                               80  1e-16
 ref929                                                               76  2e-15
 ref266                                                               72  3e-14
+ref266                                                               67  1e-12
+ref337                                                               61  5e-11
+ref337                                                               61  5e-11
+ref83                                                                58  6e-10
 
 ALIGNMENTS
 > ref215
@@ -15671,6 +16209,54 @@ Sbjct  33   AGGATTTTTTTAAATGTTAATTTTTTATTAGATATTTTCTTCATTTACATTTCAAATGCT  92
 Query  115  ATACC  119
             || ||
 Sbjct  93   ATCCC  97 
+
+
+> ref266
+Length=748
+
+ Score =  67.1 bits (73), Expect =  1e-12
+ Identities = 51/60 (85%), Gaps = 3/60 (5%)
+ Strand=Plus/Plus
+
+Query  63   TTTTTTAAA---AAAATTTATATTAAATATTTTCTTCATTTACATTTCAAATATTATACC  119
+            |||||||||    || ||| ||||| ||||||||||||||||||||||||||  ||| ||
+Sbjct  38   TTTTTTAAATGTTAATTTTTTATTAGATATTTTCTTCATTTACATTTCAAATGCTATCCC  97 
+
+
+> ref337
+Length=532
+
+ Score =  61.7 bits (67), Expect =  5e-11
+ Identities = 38/41 (93%), Gaps = 0/41 (0%)
+ Strand=Plus/Plus
+
+Query  76   TTTATATTAAATATTTTCTTCATTTACATTTCAAATATTAT  116
+            ||| || || ||||||||||||||||||||||||||  |||
+Sbjct  135  TTTTTACTAGATATTTTCTTCATTTACATTTCAAATGCTAT  175
+
+
+> ref337
+Length=532
+
+ Score =  61.7 bits (67), Expect =  5e-11
+ Identities = 38/41 (93%), Gaps = 0/41 (0%)
+ Strand=Minus/Minus
+
+Query  76   TTTATATTAAATATTTTCTTCATTTACATTTCAAATATTAT  116
+            ||| || || ||||||||||||||||||||||||||  |||
+Sbjct  135  TTTTTACTAGATATTTTCTTCATTTACATTTCAAATGCTAT  175
+
+
+> ref83
+Length=1195
+
+ Score =  58.1 bits (63), Expect =  6e-10
+ Identities = 39/44 (89%), Gaps = 0/44 (0%)
+ Strand=Minus/Minus
+
+Query  119  GGTATAATATTTGAAATGTAAATGAAGAAAATATTTAATATAAA  76 
+            || |||| ||||||||||||||| |||||||||| ||||| |||
+Sbjct  434  GGGATAAAATTTGAAATGTAAATAAAGAAAATATCTAATAAAAA  477
 
 
 
@@ -16102,6 +16688,7 @@ ref692                                                              155  3e-39
 ref812                                                              154  5e-39
 ref65                                                               153  1e-38
 ref287                                                              116  1e-27
+ref153                                                               66  2e-12
 
 ALIGNMENTS
 > ref226
@@ -16334,6 +16921,18 @@ Sbjct  1    CAGATCTCATTACGGGTGGTTGTGAGCCACCATGTGGTTGCTGGGATTTGAACTTCGGAC  60
 Query  45   TTTTGGAAGAGTAGTTAGTATTTT  22 
              || |||||||||   ||  |  |
 Sbjct  61   CTTCGGAAGAGTAAACAGGTTCCT  84 
+
+
+> ref153
+Length=820
+
+ Score =  66.2 bits (72), Expect =  2e-12
+ Identities = 41/43 (95%), Gaps = 1/43 (2%)
+ Strand=Minus/Minus
+
+Query  56  CAATTCCCAACAACCACATAATAACTCACAACCATCTATAATA  98
+           | ||||||| ||||| |||  |  ||||||||||| |  ||| 
+Sbjct  1   CGATTCCCAGCAACCGCATGGTGGCTCACAACCATTTG-AATG  42
 
 
 
@@ -16665,6 +17264,7 @@ Length=130
 Sequences producing significant alignments:                       (Bits)  Value
 
 ref230                                                              235  2e-63
+ref270                                                               61  5e-11
 
 ALIGNMENTS
 > ref230
@@ -16685,6 +17285,18 @@ Sbjct  242  AAGAAATTTAGGGCGTGGTGATCACAGGAGATTCCACCCATGTAATTTGTTTGTTTGTTT  301
 Query  121  ATTTATTTAT  130
              ||| ||| |
 Sbjct  302  GTTTGTTTGT  311
+
+
+> ref270
+Length=947
+
+ Score =  61.7 bits (67), Expect =  5e-11
+ Identities = 37/38 (97%), Gaps = 1/38 (3%)
+ Strand=Minus/Minus
+
+Query  130  ATAAATAAATAAATAAATAAATAAATTATATGGGTGGA  93 
+            || ||| ||| ||| ||| ||| ||||  |||||||||
+Sbjct  889  ATGAATGAATGAATGAATGAATGAATTG-ATGGGTGGA  925
 
 
 
@@ -18436,6 +19048,7 @@ ref302                                                               90  1e-19
 ref891                                                               89  2e-19
 ref282                                                               87  6e-19
 ref41                                                                80  1e-16
+ref415                                                               61  5e-11
 
 ALIGNMENTS
 > ref254
@@ -18572,6 +19185,18 @@ Sbjct  421  ATTTTTCT--AACTTTAAAAGTGATAGCTGGGTATGGTGGTGCACACCTTTAATCCCAGC  478
 Query  34   ATTTGGAGGTAGAGGTACGTGAATTTTTG  6  
             ||||| ||| ||| | | |   || | ||
 Sbjct  479  ATTTGAAGGCAGATGCAGGAAGATCTCTG  507
+
+
+> ref415
+Length=840
+
+ Score =  61.7 bits (67), Expect =  5e-11
+ Identities = 46/53 (87%), Gaps = 1/53 (2%)
+ Strand=Minus/Plus
+
+Query  70   AAGTCGGGTGTGGTGGTATATATTTTTAATTTTAGTA-TTTGGAGGTAGAGGT  19 
+            ||| | ||    |||| | |||  |||||||  || | ||   ||| ||| | 
+Sbjct  159  AAGCCAGGCACAGTGGCACATACCTTTAATTCCAGCACTTCACAGGCAGAAGC  211
 
 
 
@@ -19854,6 +20479,8 @@ Sequences producing significant alignments:                       (Bits)  Value
 
 ref282                                                              235  2e-63
 ref282                                                              159  2e-40
+ref500                                                               62  3e-11
+ref157                                                               61  5e-11
 
 ALIGNMENTS
 > ref282
@@ -19894,6 +20521,42 @@ Sbjct  217  TATAGCTGATATATAAAACATTTTTCATCTTTGTTTTACATTTATCTAGTGTGTGTGTGT  276
 Query  121  GTGTGTGTGT  130
             ||||||||||
 Sbjct  277  GTGTGTGTGT  286
+
+
+> ref500
+Length=898
+
+ Score =  62.6 bits (68), Expect =  3e-11
+ Identities = 98/138 (71%), Gaps = 17/138 (12%)
+ Strand=Minus/Minus
+
+Query  130  ACACACACACACACACACACACTAAATA----AATATAAAACAAAAATA-----AAAAAT  80 
+            ||||||||||||||||||||||||||||    ||| |  | |   |||        |  |
+Sbjct  553  ACACACACACACACACACACACTAAATAATATAATTTTGAGCTCCAATGTCCATTGAGGT  612
+
+Query  79   AT---TTTATATATCAACTA-TATAAAAAAATAATATTACTATTTACAAATAAAACAAAA  24 
+            ||   | ||||||| || || | |  | ||| |||     || |  ||||||  || | |
+Sbjct  613  ATTGCTATATATATGAAATACTTTTCACAAAAAATG----TAATGGCAAATAGCACCAGA  668
+
+Query  23   TATTTATTACTAACAATA  6  
+              | || || ||   |||
+Sbjct  669  AGTATAGTATTAGTGATA  686
+
+
+> ref157
+Length=578
+
+ Score =  61.7 bits (67), Expect =  5e-11
+ Identities = 74/97 (76%), Gaps = 8/97 (8%)
+ Strand=Minus/Plus
+
+Query  126  ACACACACACACACACACTAAATAAATATAAAACAAAAATAAAAAATATTTTATATATCA  67 
+            ||||||||||||||||||   | | | | | | || | |||| | ||| | || | ||  
+Sbjct  56   ACACACACACACACACAC---ACACACACACACCATACATAATACATA-TATACACATGT  111
+
+Query  66   ACTATATAAAAA---AATA-ATATTACTATTTACAAA  34 
+            || ||||| | |   || | |  | ||| | | ||||
+Sbjct  112  ACCATATACATATGGAACACACGTCACTCTCTTCAAA  148
 
 
 
@@ -21674,6 +22337,7 @@ Sequences producing significant alignments:                       (Bits)  Value
 ref316                                                              235  2e-63
 ref976                                                               77  6e-16
 ref343                                                               68  3e-13
+ref358                                                               63  1e-11
 
 ALIGNMENTS
 > ref316
@@ -21726,6 +22390,22 @@ Length=1134
 Query  6    TTATTAATTAAAGAGTATATATGGGTTGGATTTAGGTTTTTTCGTATATATGTAGTAGA  64 
             | || || ||||||| ||| ||||  |||    | |   |     | |||||||| |||
 Sbjct  342  TCATCAACTAAAGAGCATACATGGTCTGGTCCAAAG--CTCCAACACATATGTAGCAGA  398
+
+
+> ref358
+Length=802
+
+ Score =  63.5 bits (69), Expect =  1e-11
+ Identities = 53/64 (83%), Gaps = 1/64 (2%)
+ Strand=Minus/Minus
+
+Query  64   TCTACTACATATATACGAAAAAACCTAAATCCAACCCATATATACTCTTTAATTAATAAT  5  
+            ||| ||||||||  |     |    |   |||  ||||| | ||||||||  ||  |  |
+Sbjct  191  TCTGCTACATATGCAGCTGGAGCTATGTGTCC-CCCCATGTGTACTCTTTGGTTGGTGGT  249
+
+Query  4    TCAA  1  
+            | | 
+Sbjct  250  TTAG  253
 
 
 
@@ -22657,6 +23337,24 @@ ref329                                                              235  2e-63
 ref65                                                                78  3e-16
 ref674                                                               78  3e-16
 ref415                                                               77  1e-15
+ref603                                                               66  2e-12
+ref125                                                               64  7e-12
+ref125                                                               64  7e-12
+ref125                                                               64  7e-12
+ref154                                                               64  7e-12
+ref125                                                               62  3e-11
+ref154                                                               62  3e-11
+ref125                                                               60  9e-11
+ref154                                                               60  9e-11
+ref527                                                               60  9e-11
+ref679                                                               60  9e-11
+ref125                                                               59  2e-10
+ref679                                                               59  2e-10
+ref154                                                               58  3e-10
+ref125                                                               58  6e-10
+ref125                                                               58  6e-10
+ref154                                                               58  6e-10
+ref679                                                               58  6e-10
 
 ALIGNMENTS
 > ref329
@@ -22713,6 +23411,226 @@ Length=840
 Query  42   GGATTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT  1  
             |||| |||  ||||| ||||| || || ||||  ||||| ||
 Sbjct  772  GGATCTTTCCTTTTTCTTTTTCTTCTTCTTTTCCTTTTTCTT  813
+
+
+> ref603
+Length=876
+
+ Score =  66.2 bits (72), Expect =  2e-12
+ Identities = 39/41 (95%), Gaps = 0/41 (0%)
+ Strand=Minus/Plus
+
+Query  41   GATTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT  1  
+            || || ||| ||   |   |   |       |   | ||| 
+Sbjct  168  GACTTCTTTCTTCCCTCCCTCCCTCCCACCCTCACTCTTTC  208
+
+
+> ref125
+Length=832
+
+ Score =  64.4 bits (70), Expect =  7e-12
+ Identities = 35/35 (100%), Gaps = 0/35 (0%)
+ Strand=Minus/Minus
+
+Query  41   GATTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT  7  
+            |||||||||||||||||||||||||||||||||||
+Sbjct  640  GATTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT  674
+
+
+> ref125
+Length=832
+
+ Score =  64.4 bits (70), Expect =  7e-12
+ Identities = 35/35 (100%), Gaps = 0/35 (0%)
+ Strand=Minus/Plus
+
+Query  41   GATTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT  7  
+            |||||||||||||||||||||||||||||||||||
+Sbjct  640  GATTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT  674
+
+
+> ref125
+Length=832
+
+ Score =  64.4 bits (70), Expect =  7e-12
+ Identities = 38/40 (95%), Gaps = 0/40 (0%)
+ Strand=Minus/Minus
+
+Query  40   ATTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT  1  
+            ||||||  ||||||||||||||||||||||||||||||||
+Sbjct  634  ATTTTTGATTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT  673
+
+
+> ref154
+Length=851
+
+ Score =  64.4 bits (70), Expect =  7e-12
+ Identities = 38/40 (95%), Gaps = 0/40 (0%)
+ Strand=Minus/Minus
+
+Query  40   ATTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT  1  
+             | ||||||||||||||||||||||||||||| |||||||
+Sbjct  185  GTCTTTTTTTTTTTTTTTTTTTTTTTTTTTTTATTTTTTT  224
+
+
+> ref125
+Length=832
+
+ Score =  62.6 bits (68), Expect =  3e-11
+ Identities = 37/39 (95%), Gaps = 0/39 (0%)
+ Strand=Minus/Minus
+
+Query  40   ATTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT  2  
+            ||||||  |||||||||||||||||||||||||||||||
+Sbjct  634  ATTTTTGATTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT  672
+
+
+> ref154
+Length=851
+
+ Score =  62.6 bits (68), Expect =  3e-11
+ Identities = 37/39 (95%), Gaps = 0/39 (0%)
+ Strand=Minus/Minus
+
+Query  40   ATTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT  2  
+             | ||||||||||||||||||||||||||||| ||||||
+Sbjct  185  GTCTTTTTTTTTTTTTTTTTTTTTTTTTTTTTATTTTTT  223
+
+
+> ref125
+Length=832
+
+ Score =  60.8 bits (66), Expect =  9e-11
+ Identities = 36/38 (95%), Gaps = 0/38 (0%)
+ Strand=Minus/Minus
+
+Query  40   ATTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT  3  
+            ||||||  ||||||||||||||||||||||||||||||
+Sbjct  634  ATTTTTGATTTTTTTTTTTTTTTTTTTTTTTTTTTTTT  671
+
+
+> ref154
+Length=851
+
+ Score =  60.8 bits (66), Expect =  9e-11
+ Identities = 36/38 (95%), Gaps = 0/38 (0%)
+ Strand=Minus/Minus
+
+Query  40   ATTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT  3  
+             | ||||||||||||||||||||||||||||| |||||
+Sbjct  185  GTCTTTTTTTTTTTTTTTTTTTTTTTTTTTTTATTTTT  222
+
+
+> ref527
+Length=998
+
+ Score =  60.8 bits (66), Expect =  9e-11
+ Identities = 33/33 (100%), Gaps = 0/33 (0%)
+ Strand=Minus/Plus
+
+Query  44   AAGGATTTTTTTTTTTTTTTTTTTTTTTTTTTT  12 
+            ||||| | | | | | | | | | | | | | |
+Sbjct  949  AAGGACTCTCTCTCTCTCTCTCTCTCTCTCTCT  981
+
+
+> ref679
+Length=943
+
+ Score =  60.8 bits (66), Expect =  9e-11
+ Identities = 36/38 (95%), Gaps = 0/38 (0%)
+ Strand=Minus/Minus
+
+Query  40   ATTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT  3  
+             ||| |||| ||||||||||||||||||||||||||||
+Sbjct  496  GTTTGTTTTGTTTTTTTTTTTTTTTTTTTTTTTTTTTT  533
+
+
+> ref125
+Length=832
+
+ Score =  59.9 bits (65), Expect =  2e-10
+ Identities = 37/40 (93%), Gaps = 0/40 (0%)
+ Strand=Minus/Minus
+
+Query  40   ATTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT  1  
+             ||| |||||  ||||||||||||||||||||||||||||
+Sbjct  630  GTTTATTTTTGATTTTTTTTTTTTTTTTTTTTTTTTTTTT  669
+
+
+> ref679
+Length=943
+
+ Score =  59.9 bits (65), Expect =  2e-10
+ Identities = 37/40 (93%), Gaps = 0/40 (0%)
+ Strand=Minus/Minus
+
+Query  40   ATTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT  1  
+             ||| ||| |||| ||||||||||||||||||||||||||
+Sbjct  492  GTTTGTTTGTTTTGTTTTTTTTTTTTTTTTTTTTTTTTTT  531
+
+
+> ref154
+Length=851
+
+ Score =  59.0 bits (64), Expect =  3e-10
+ Identities = 35/37 (95%), Gaps = 0/37 (0%)
+ Strand=Minus/Minus
+
+Query  40   ATTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT  4  
+             | ||||||||||||||||||||||||||||| ||||
+Sbjct  185  GTCTTTTTTTTTTTTTTTTTTTTTTTTTTTTTATTTT  221
+
+
+> ref125
+Length=832
+
+ Score =  58.1 bits (63), Expect =  6e-10
+ Identities = 54/67 (81%), Gaps = 4/67 (6%)
+ Strand=Minus/Minus
+
+Query  65   TAAAATAAAGTAATGTATAGAAAGGATTTTTTTTTTTTTT--TTTTTTTTTTTTTTTTTT  8  
+            ||| ||   ||  ||| | |  ||  |||| ||| |||||  ||||||||||||||||||
+Sbjct  602  TAAGATTTGGT--TGTTTGGTTAGTTTTTTGTTTATTTTTGATTTTTTTTTTTTTTTTTT  659
+
+Query  7    TTTTTTT  1  
+            |||||||
+Sbjct  660  TTTTTTT  666
+
+
+> ref125
+Length=832
+
+ Score =  58.1 bits (63), Expect =  6e-10
+ Identities = 36/39 (92%), Gaps = 0/39 (0%)
+ Strand=Minus/Minus
+
+Query  40   ATTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT  2  
+             ||| |||||  |||||||||||||||||||||||||||
+Sbjct  630  GTTTATTTTTGATTTTTTTTTTTTTTTTTTTTTTTTTTT  668
+
+
+> ref154
+Length=851
+
+ Score =  58.1 bits (63), Expect =  6e-10
+ Identities = 36/39 (92%), Gaps = 0/39 (0%)
+ Strand=Minus/Minus
+
+Query  39   TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT  1  
+            ||| | ||||||||||||||||||||||||||||| |||
+Sbjct  182  TTTGTCTTTTTTTTTTTTTTTTTTTTTTTTTTTTTATTT  220
+
+
+> ref679
+Length=943
+
+ Score =  58.1 bits (63), Expect =  6e-10
+ Identities = 36/39 (92%), Gaps = 0/39 (0%)
+ Strand=Minus/Minus
+
+Query  40   ATTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT  2  
+             ||| ||| |||| |||||||||||||||||||||||||
+Sbjct  492  GTTTGTTTGTTTTGTTTTTTTTTTTTTTTTTTTTTTTTT  530
 
 
 
@@ -23719,6 +24637,8 @@ Sequences producing significant alignments:                       (Bits)  Value
 
 ref348                                                              235  2e-63
 ref348                                                              123  2e-29
+ref390                                                               65  4e-12
+ref650                                                               59  2e-10
 
 ALIGNMENTS
 > ref348
@@ -23759,6 +24679,34 @@ Sbjct  298  TAGATAAAAGTTAAGAAAAGAGTTGAAAGCAAGAAATTAGTTTCTTGCCACTTTACACAT  357
 Query  121  TTAAGGATGT  130
             ||||||||||
 Sbjct  358  TTAAGGATGT  367
+
+
+> ref390
+Length=715
+
+ Score =  65.3 bits (71), Expect =  4e-12
+ Identities = 72/94 (77%), Gaps = 3/94 (3%)
+ Strand=Minus/Plus
+
+Query  96   TTTCTTACTTTCAACTCTTTTCTTAACTTTTATCTATATATAAATATAAAAACATTAATA  37 
+            | |||  || ||  |||| |   |  || |                   | |||   | |
+Sbjct  291  TCTCTCTCTCTC-TCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCACACAC--ACA  347
+
+Query  36   TATATAAAAACACACATATATATATATACTTTAT  3  
+             | | | | ||||||| | | | | | |||| ||
+Sbjct  348  CACACACACACACACACACACACACACACTTCAT  381
+
+
+> ref650
+Length=631
+
+ Score =  59.9 bits (65), Expect =  2e-10
+ Identities = 40/45 (89%), Gaps = 0/45 (0%)
+ Strand=Minus/Plus
+
+Query  45   ACATTAATATATATAAAAACACACATATATATATATACTTTATAT  1  
+            |||   | | | | | | ||||||| | | | | | ||  |  | 
+Sbjct  181  ACACACACACACACACACACACACACACACACACACACCCTCCAC  225
 
 
 
@@ -26382,6 +27330,8 @@ ref392                                                              235  2e-63
 ref510                                                               77  6e-16
 ref302                                                               74  8e-15
 ref550                                                               68  6e-13
+ref41                                                                64  7e-12
+ref416                                                               58  3e-10
 
 ALIGNMENTS
 > ref392
@@ -26440,6 +27390,30 @@ Query  120  TCTACCTCTCAAATACTAAAATTAAAAATATACCCCACCACCCCCAAACCAAATTAA  64
 Sbjct  107  TCTGCCTCCCAAGTGCTGGGATTAAAGGTGTGCACCACCACTGCCTGGCAATAATAA  163
 
 
+> ref41
+Length=1147
+
+ Score =  64.4 bits (70), Expect =  7e-12
+ Identities = 43/47 (91%), Gaps = 1/47 (2%)
+ Strand=Plus/Plus
+
+Query  74   TTGGGGGTGGTGGGGTATATTTTTAATTTTAGTATTTGAGAGGTAGA  120
+             ||||  |||||| | | |  ||||||   || |||||| ||| |||
+Sbjct  446  CTGGGTATGGTGGTGCACACCTTTAATCCCAGCATTTGA-AGGCAGA  491
+
+
+> ref416
+Length=1138
+
+ Score =  59.0 bits (64), Expect =  3e-10
+ Identities = 41/47 (87%), Gaps = 0/47 (0%)
+ Strand=Plus/Plus
+
+Query  74   TTGGGGGTGGTGGGGTATATTTTTAATTTTAGTATTTGAGAGGTAGA  120
+             ||||   |||||   |||| |||||| | || | | |||||| |||
+Sbjct  453  CTGGGTAGGGTGGCCCATATGTTTAATCTCAGCACTCGAGAGGCAGA  499
+
+
 
 Lambda     K      H
    0.625   0.4100   0.7800
@@ -26458,6 +27432,7 @@ Length=130
 Sequences producing significant alignments:                       (Bits)  Value
 
 ref393                                                              235  2e-63
+ref83                                                                58  3e-10
 
 ALIGNMENTS
 > ref393
@@ -26478,6 +27453,22 @@ Sbjct  478  TTCCCTCCCCCTATTCCTCCCCGACAAATAATTGAACTTCTTCCAACATTCTAGCAACCT  537
 Query  121  TTGGTTTAGT  130
              |||| ||| 
 Sbjct  538  CTGGTCTAGC  547
+
+
+> ref83
+Length=1195
+
+ Score =  59.0 bits (64), Expect =  3e-10
+ Identities = 64/84 (76%), Gaps = 6/84 (7%)
+ Strand=Minus/Minus
+
+Query  120  AAATTACTAAA-ATATTAAAAAAAATTCAATT-----ATTTATCGAAAAAAAATAAAAAA  67 
+               ||| | |  |     |    |  |    |      |||   || |  |||| |  ||
+Sbjct  372  GGGTTAGTGAGCAGGGAGAGGGGAGCTGGGATAGGGGGTTTTCAGAGAGGAAATGAGGAA  431
+
+Query  66   AAAAAATAAAAAATACAATTTAAA  43 
+            |    ||||||  |  ||| ||||
+Sbjct  432  AGGGGATAAAATTTGAAATGTAAA  455
 
 
 
@@ -28031,6 +29022,8 @@ Length=130
 Sequences producing significant alignments:                       (Bits)  Value
 
 ref418                                                              235  2e-63
+ref237                                                               60  9e-11
+ref891                                                               59  2e-10
 
 ALIGNMENTS
 > ref418
@@ -28051,6 +29044,30 @@ Sbjct  514  TAGAAGTTGTGACTAGGACATTCATCATGATGTTAGTGGCTTCTATAAGGGAAAAGAGAC  573
 Query  121  TTGAGTTAGT  130
              |||| ||| 
 Sbjct  574  CTGAGCTAGC  583
+
+
+> ref237
+Length=1094
+
+ Score =  60.8 bits (66), Expect =  9e-11
+ Identities = 47/55 (85%), Gaps = 1/55 (2%)
+ Strand=Minus/Minus
+
+Query  63    CTAATATTTATTTT-TACTCCTGTTATTTTTCAAAACAAAATTTCTCTATTTAAC  10  
+             ||||| ||| |||| |  |  | || |||||||| |||   ||||||| | || |
+Sbjct  983   CTAATTTTTGTTTTGTTTTTTTTTTGTTTTTCAAGACAGGGTTTCTCTGTGTAGC  1037
+
+
+> ref891
+Length=760
+
+ Score =  59.9 bits (65), Expect =  2e-10
+ Identities = 44/51 (86%), Gaps = 3/51 (6%)
+ Strand=Minus/Minus
+
+Query  60   ATATTTATTTTTACTCCTGTTATTTTTCAAAACAAAATTTCTCTATTTAAC  10 
+             | ||| |||||     | || |||||| | |||   ||||||| | || |
+Sbjct  199  GTTTTTGTTTTTG---TTTTTGTTTTTCGAGACAGGGTTTCTCTGTATAGC  246
 
 
 
@@ -28675,6 +29692,8 @@ Length=130
 Sequences producing significant alignments:                       (Bits)  Value
 
 ref430                                                              235  2e-63
+ref43                                                                66  2e-12
+ref891                                                               62  3e-11
 
 ALIGNMENTS
 > ref430
@@ -28695,6 +29714,34 @@ Sbjct  457  TCCTATCTTTGCCCTTAACCACATATTTCACATACTCATCTGAGCTCCCAAATGTCATTT  516
 Query  121  TAAAAATTAT  130
             ||||||||| 
 Sbjct  517  TAAAAATTAC  526
+
+
+> ref43
+Length=1061
+
+ Score =  66.2 bits (72), Expect =  2e-12
+ Identities = 56/67 (84%), Gaps = 3/67 (4%)
+ Strand=Plus/Plus
+
+Query  24   TAGTTAAAATA--TATGATTAAATGTTTATTTTTTTATTTTTTATTTTTGTTTTTAATTA  81 
+            ||||| |||||  | |||    |     |       |      |     |  |  | | |
+Sbjct  864  TAGTTTAAATAGGTTTGACCCCACCCCCACCCCCCCACCCCCCACCCCCG-CTCCACTCA  922
+
+Query  82   TATATTT  88 
+              | |||
+Sbjct  923  CGTGTTT  929
+
+
+> ref891
+Length=760
+
+ Score =  62.6 bits (68), Expect =  3e-11
+ Identities = 40/44 (91%), Gaps = 0/44 (0%)
+ Strand=Minus/Minus
+
+Query  45   TGTTTATTTTTTTATTTTTTATTTTTGTTTTTAATTATATATTT  88 
+            ||||| ||| ||| |||||| |||||||||||  || | | |||
+Sbjct  179  TGTTTGTTTGTTTGTTTTTTGTTTTTGTTTTTGTTTTTGTTTTT  222
 
 
 
@@ -31277,6 +32324,7 @@ Length=130
 Sequences producing significant alignments:                       (Bits)  Value
 
 ref476                                                              235  2e-63
+ref363                                                               63  1e-11
 
 ALIGNMENTS
 > ref476
@@ -31297,6 +32345,22 @@ Sbjct  562  GAAACTGAAAACAGACACGTTAGTGACTAAAGAGAAAGGTGAAGATATGGACAAGTGAAC  621
 Query  121  AAAAACACCC  130
             |||||| |||
 Sbjct  622  AAAAACGCCC  631
+
+
+> ref363
+Length=867
+
+ Score =  63.5 bits (69), Expect =  1e-11
+ Identities = 54/64 (84%), Gaps = 6/64 (9%)
+ Strand=Minus/Minus
+
+Query  58   GAAAAAACTAAAAACAAACACATT--AATAACTAAAAAAAAAAATAAAAATATAAACAAA  115
+            ||| | ||||  |   ||   |||   |  |||   || | | || || || |   ||  
+Sbjct  391  GAAGAGACTAGGA--GAATGGATTCAGAGGACTGGGAAGAGAGATGAAGATGT--GCAGT  446
+
+Query  116  TAAA  119
+            || |
+Sbjct  447  TAGA  450
 
 
 
@@ -32043,6 +33107,13 @@ ref355                                                               70  9e-14
 ref935                                                               70  9e-14
 ref161                                                               68  3e-13
 ref161                                                               68  6e-13
+ref161                                                               67  1e-12
+ref81                                                                66  2e-12
+ref525                                                               66  2e-12
+ref662                                                               64  7e-12
+ref768                                                               64  7e-12
+ref66                                                                63  1e-11
+ref254                                                               63  1e-11
 
 ALIGNMENTS
 > ref482
@@ -32285,6 +33356,94 @@ Query  20  TTTATTTGTGTTTTGATTTATTTATTTATTTATTTATTTATTTATTA  66
 Sbjct  32  TCTATCTATCTATCTATCTATCTATCTATCTATCTATCTATCTATTA  78
 
 
+> ref161
+Length=617
+
+ Score =  67.1 bits (73), Expect =  1e-12
+ Identities = 60/73 (82%), Gaps = 2/73 (3%)
+ Strand=Plus/Plus
+
+Query  21  TTATTTGTGTTTTGATTTATTTATTTATTTATTTATTTATTTA-TTATTACGTTA-ATAT  78
+             ||   | ||   || ||| ||| ||| ||| ||| ||| ||  |||     ||  |||
+Sbjct  5   CCATCCATCTTACTATCTATCTATCTATCTATCTATCTATCTATCTATCTATCTATCTAT  64
+
+Query  79  GTAATTTTTTATT  91
+            ||  | | ||||
+Sbjct  65  CTATCTATCTATT  77
+
+
+> ref81
+Length=701
+
+ Score =  66.2 bits (72), Expect =  2e-12
+ Identities = 42/46 (91%), Gaps = 0/46 (0%)
+ Strand=Minus/Plus
+
+Query  65   AATAAATAAATAAATAAATAAATAAATAAATCAAAACACAAATAAA  20 
+            ||||||||||||||||||||||||||||||| || | | |||||||
+Sbjct  531  AATAAATAAATAAATAAATAAATAAATAAATAAATAAATAAATAAA  576
+
+
+> ref525
+Length=1130
+
+ Score =  66.2 bits (72), Expect =  2e-12
+ Identities = 42/46 (91%), Gaps = 0/46 (0%)
+ Strand=Plus/Plus
+
+Query  20   TTTATTTGTGTTTTGATTTATTTATTTATTTATTTATTTATTTATT  65 
+            ||||||| | | || |||||||||||||||||||||||||||||||
+Sbjct  190  TTTATTTATTTATTTATTTATTTATTTATTTATTTATTTATTTATT  235
+
+
+> ref662
+Length=1091
+
+ Score =  64.4 bits (70), Expect =  7e-12
+ Identities = 41/45 (91%), Gaps = 0/45 (0%)
+ Strand=Plus/Plus
+
+Query  21    TTATTTGTGTTTTGATTTATTTATTTATTTATTTATTTATTTATT  65  
+             | |      |||  || ||| ||| ||| ||| ||| ||| ||| 
+Sbjct  1046  TCACACACATTTCTATCTATCTATCTATCTATCTATCTATCTATC  1090
+
+
+> ref768
+Length=1072
+
+ Score =  64.4 bits (70), Expect =  7e-12
+ Identities = 51/60 (85%), Gaps = 5/60 (8%)
+ Strand=Minus/Plus
+
+Query  92    AAATAAA--AAATTACATATTAACGTAATAATAAATAAATAAATAAATAAATAAATAAAT  35  
+             |||||||  |||   | |||||    || |||||||||||||||||||||||||||||||
+Sbjct  996   AAATAAAGGAAACATCTTATTA---CAAAAATAAATAAATAAATAAATAAATAAATAAAT  1052
+
+
+> ref66
+Length=1197
+
+ Score =  63.5 bits (69), Expect =  1e-11
+ Identities = 39/42 (93%), Gaps = 0/42 (0%)
+ Strand=Minus/Minus
+
+Query  35   ATTTATTTATTTATTTATTTATTTATTTATTATTACGTTAAT  76 
+             ||| ||| ||| ||| ||| ||| ||| || || | ||  |
+Sbjct  316  GTTTGTTTGTTTGTTTGTTTGTTTGTTTGTTGTTTCTTTTGT  357
+
+
+> ref254
+Length=1147
+
+ Score =  63.5 bits (69), Expect =  1e-11
+ Identities = 44/49 (90%), Gaps = 1/49 (2%)
+ Strand=Plus/Plus
+
+Query  20   TTTATTTGTGTTTTGATTTATTTATTTATTTATTTATTTATTTATTATT  68 
+            ||||||| | ||||  |||||||||||||||||||||||||||||| ||
+Sbjct  399  TTTATTTAT-TTTTATTTTATTTATTTATTTATTTATTTATTTATTTTT  446
+
+
 
 Lambda     K      H
    0.625   0.4100   0.7800
@@ -32484,6 +33643,7 @@ Length=130
 Sequences producing significant alignments:                       (Bits)  Value
 
 ref487                                                              235  2e-63
+ref633                                                               58  3e-10
 
 ALIGNMENTS
 > ref487
@@ -32506,6 +33666,22 @@ Query  121  TTTTTTTTGT  130
 Sbjct  311  TTTTTTTTGT  320
 
 
+> ref633
+Length=779
+
+ Score =  59.0 bits (64), Expect =  3e-10
+ Identities = 72/96 (75%), Gaps = 7/96 (7%)
+ Strand=Plus/Plus
+
+Query  35   TTTTGGTTTTAATATATTTTTTAATAATTATTTTGATTAATTTAGTTATTTATATAATTT  94 
+             ||| |||  ||  || || || | ||  ||   || | |  ||  |  |    |   | 
+Sbjct  340  CTTTTGTTCCAAGGTACTTATTCAGAACAATACCGAAT-ACCTACCTTCTCTCCT--CTC  396
+
+Query  95   CGGGGGATTAATTTTTTTTTTTTTTTTTTTTTTTGT  130
+            | |    ||  |     |  | || |   |   |||
+Sbjct  397  CTG----TTCTTGCCCCTCCTCTTCTCCCTCCCTGT  428
+
+
 
 Lambda     K      H
    0.625   0.4100   0.7800
@@ -32524,6 +33700,7 @@ Length=130
 Sequences producing significant alignments:                       (Bits)  Value
 
 ref488                                                              235  2e-63
+ref26                                                                63  1e-11
 
 ALIGNMENTS
 > ref488
@@ -32544,6 +33721,22 @@ Sbjct  379  CCATTTACATAAAGCATATTTGACAAACAAGTGCTATACAAAATGTTTTGTTTTACTAAT  438
 Query  121  TTTTTAATTT  130
             |||| || ||
 Sbjct  439  TTTTCAACTT  448
+
+
+> ref26
+Length=873
+
+ Score =  63.5 bits (69), Expect =  1e-11
+ Identities = 80/104 (77%), Gaps = 11/104 (11%)
+ Strand=Minus/Minus
+
+Query  125  AAAAAATTAATAAAACAAAACA---TTTTAT--ATAACACTTATTTATCAAATATACTTT  71 
+              || | | | | ||||| |||   ||||||  |||| ||   ||| | || || |   |
+Sbjct  187  GGAAGACTGAGATAACAACACATGTTTTTATTAATAATACGAGTTTCT-AATTAAA---T  242
+
+Query  70   ATATAAATAAAAAAAATTATAATTCTTAAA-CTTTTA-AAAATA  29 
+             || |  |      |||| | ||| ||     ||||    ||| 
+Sbjct  243  GTAGAGGTGGGGGGAATTGTGATTGTTGGGTGTTTTGTGGAATG  286
 
 
 
@@ -38513,6 +39706,7 @@ Length=130
 Sequences producing significant alignments:                       (Bits)  Value
 
 ref592                                                              235  2e-63
+ref624                                                               61  5e-11
 
 ALIGNMENTS
 > ref592
@@ -38533,6 +39727,18 @@ Sbjct  436  CTGCCTGATGGGGCCTCTGAGAGAGATGTGCTTAGTCCTACTAGAAGTATATGTCCCAAG  495
 Query  121  ATACCCATAA  130
             ||||||||  
 Sbjct  496  ATACCCATGG  505
+
+
+> ref624
+Length=724
+
+ Score =  61.7 bits (67), Expect =  5e-11
+ Identities = 50/59 (85%), Gaps = 4/59 (7%)
+ Strand=Minus/Minus
+
+Query  57   TAAACTACCTAATAAAACCTC---TAAAAAAAATATACTTAATCCTACTA-AAAATATA  111
+            | ||   |||  |    ||||      | |  || | |||| |||| ||   || | ||
+Sbjct  32   TGAAGGGCCTGGTTGGGCCTCACTGGGAGAGGATGTGCTTAGTCCTGCTGTGAACTGTA  90 
 
 
 
@@ -38793,6 +39999,7 @@ Sequences producing significant alignments:                       (Bits)  Value
 ref596                                                              235  2e-63
 ref515                                                              104  5e-24
 ref819                                                               76  2e-15
+ref487                                                               60  9e-11
 
 ALIGNMENTS
 > ref596
@@ -38849,6 +40056,18 @@ Sbjct  267  AGGCAGGATTATCTCTCTTGAGTTCAAGGTCAGCTTGTTCTACACAGTGAGTTCCAGGCC  326
 Query  16   ATTTAGGATTATGTAG  1  
             | | ||    |   ||
 Sbjct  327  AGTCAGAGCCACACAG  342
+
+
+> ref487
+Length=704
+
+ Score =  60.8 bits (66), Expect =  9e-11
+ Identities = 51/59 (86%), Gaps = 3/59 (5%)
+ Strand=Minus/Minus
+
+Query  20   CTAAAA-CTCACTATATAAACCAAACTAAACTTAAACAAACAAAAATCCAC-CTACCTC  76 
+            |||    ||| |||| ||| |||  ||   ||| |||  |  | || || | || ||||
+Sbjct  82   CTAGGGTCTCGCTATGTAAGCCAGGCTGGCCTTGAACTCA-GAGAACCCTCACTGCCTC  139
 
 
 
@@ -41011,6 +42230,7 @@ Length=130
 Sequences producing significant alignments:                       (Bits)  Value
 
 ref628                                                              235  2e-63
+ref850                                                               58  6e-10
 
 ALIGNMENTS
 > ref628
@@ -41031,6 +42251,18 @@ Sbjct  163  AATCCCAGCGGCCTCTAAATCATTTCACACAGCTCTCTCAAGTGTAATGTTCCATTGCTT  222
 Query  121  ATTAACTAAA  130
             |||| |||||
 Sbjct  223  ATTAGCTAAA  232
+
+
+> ref850
+Length=771
+
+ Score =  58.1 bits (63), Expect =  6e-10
+ Identities = 33/34 (97%), Gaps = 0/34 (0%)
+ Strand=Minus/Plus
+
+Query  36   TTTAAAAATTTTTTTTTTTTTTTTTATTTTTTTT  3  
+             |||||||  | | | | | | | | |   |   
+Sbjct  611  CTTAAAAACCTCTCTCTCTCTCTCTCTCCCTCCC  644
 
 
 
@@ -42811,6 +44043,7 @@ ref641                                                              178  5e-46
 ref768                                                              172  2e-44
 ref447                                                              136  1e-33
 ref105                                                              128  4e-31
+ref101                                                               62  3e-11
 
 ALIGNMENTS
 > ref657
@@ -42911,6 +44144,18 @@ Sbjct  394  AGATTTTGCTGAAAGGACCCTGATATAGCTGTCTCTTGTGAGGCTATGCCAGTGCCTAAA  453
 Query  8    AAATATAG  1  
             ||| | ||
 Sbjct  454  AAACACAG  461
+
+
+> ref101
+Length=1091
+
+ Score =  62.6 bits (68), Expect =  3e-11
+ Identities = 43/49 (88%), Gaps = 0/49 (0%)
+ Strand=Minus/Plus
+
+Query  128   TATTTGGGGATTTATTTTATATACAGTTATTAAATTTAGATATTAGTGT  80  
+             |||  ||||||  ||   |||  ||| |   |||    || |  | || 
+Sbjct  1036  TATCCGGGGATCCATCCCATAATCAGCTTCCAAACGCTGACACCATTGC  1084
 
 
 
@@ -44210,6 +45455,10 @@ ref131                                                               78  3e-16
 ref458                                                               77  6e-16
 ref21                                                                72  3e-14
 ref86                                                                72  3e-14
+ref678                                                               67  1e-12
+ref458                                                               65  4e-12
+ref705                                                               63  1e-11
+ref314                                                               58  6e-10
 
 ALIGNMENTS
 > ref678
@@ -44464,6 +45713,58 @@ Query  39   ATA-AAATTAG  30
 Sbjct  560  ATGTATATTGG  570
 
 
+> ref678
+Length=1072
+
+ Score =  67.1 bits (73), Expect =  1e-12
+ Identities = 52/61 (85%), Gaps = 1/61 (2%)
+ Strand=Plus/Plus
+
+Query  37    TATTTTCATACACACACCAATATATATATATATATATACGTATATATATATATATATATA  96  
+              | || | || | |||  |  ||| | | | | | | ||  | | | | | | | | | |
+Sbjct  973   CACTTCCTTA-AAACAGTAGAATAAACACACACACACACACACACACACACACACACACA  1031
+
+Query  97    T  97  
+              
+Sbjct  1032  C  1032
+
+
+> ref458
+Length=1172
+
+ Score =  65.3 bits (71), Expect =  4e-12
+ Identities = 45/50 (90%), Gaps = 1/50 (2%)
+ Strand=Minus/Plus
+
+Query  103  ATATATATATAT-ATATATATATATATACGTATATATATATATATATATT  55 
+            ||||  |||||| ||||| ||  ||| |   ||| ||| ||| ||| |||
+Sbjct  267  ATATGCATATATGATATACATGCATACATACATACATACATACATACATT  316
+
+
+> ref705
+Length=1073
+
+ Score =  63.5 bits (69), Expect =  1e-11
+ Identities = 42/47 (89%), Gaps = 0/47 (0%)
+ Strand=Plus/Plus
+
+Query  56   ATATATATATATATATATACGTATATATATATATATATATATATATA  102
+            |||||||| | ||||||||  || | | | | | |   | | | | |
+Sbjct  545  ATATATATGTTTATATATATTTACACACACACACACGCACACACACA  591
+
+
+> ref314
+Length=849
+
+ Score =  58.1 bits (63), Expect =  6e-10
+ Identities = 33/34 (97%), Gaps = 0/34 (0%)
+ Strand=Minus/Plus
+
+Query  110  TTTAGCGATATATATATATATATATATATATATA  77 
+              ||| || |||||||||||||||||||||||||
+Sbjct  695  CCTAGTGACATATATATATATATATATATATATA  728
+
+
 
 Lambda     K      H
    0.625   0.4100   0.7800
@@ -44501,6 +45802,7 @@ ref39                                                               132  3e-32
 ref681                                                              132  3e-32
 ref1                                                                131  6e-32
 ref425                                                               92  3e-20
+ref779                                                               62  3e-11
 
 ALIGNMENTS
 > ref679
@@ -44855,6 +46157,18 @@ Query  78   ACTAGGTTGGTTTCGAATTTAGAAATTCGTTTGTTTTTGTTTTTTAAGTGTTG  130
 Sbjct  444  ACCAGGCTGGCCTCGAACTCAGAAATCCACCTGCCTCTGCCTCCCAAGTGCTG  496
 
 
+> ref779
+Length=769
+
+ Score =  62.6 bits (68), Expect =  3e-11
+ Identities = 37/39 (95%), Gaps = 0/39 (0%)
+ Strand=Plus/Plus
+
+Query  92   GAATTTAGAAATTCGTTTGTTTTTGTTTTTTAAGTGTTG  130
+            ||  | ||||||||   ||| | ||  |   ||||| ||
+Sbjct  543  GAGCTCAGAAATTCTCCTGTCTCTGCCTCCCAAGTGCTG  581
+
+
 
 Lambda     K      H
    0.625   0.4100   0.7800
@@ -44913,6 +46227,7 @@ Length=130
 Sequences producing significant alignments:                       (Bits)  Value
 
 ref681                                                              235  2e-63
+ref211                                                               61  5e-11
 
 ALIGNMENTS
 > ref681
@@ -44933,6 +46248,22 @@ Sbjct  203  CTTGCAAGGTACCCTCAGCTGGTCTGAACTGATGGTGGTTCTCCTGTCTCAACCTTCCCA  262
 Query  121  GGGGTATTAG  130
             |||| |||||
 Sbjct  263  GGGGCATTAG  272
+
+
+> ref211
+Length=1210
+
+ Score =  61.7 bits (67), Expect =  5e-11
+ Identities = 74/96 (77%), Gaps = 5/96 (5%)
+ Strand=Minus/Minus
+
+Query  114  AATTAAAACAAAAAAACCACCATCA-ATTCAAACCAACTAAAAATACCT-TACAAAAACC  57 
+             ||  ||||| |   |    | ||| | ||||||  ||||  |  |  |    | |    
+Sbjct  503  GATGGAAACAGATGCAGAGAC-TCATAGTCAAAC--ACTAGGAGGAGTTCCGGAGAGGGG  559
+
+Query  56   TATCTAAAAAATAAATAAAAAAAAAAATTAAAAAAA  21 
+              |||     || | |     | |  ||| |   | 
+Sbjct  560  AGTCTTGTGGATGAGTGGGGGAGAGGATTGAGGGAG  595
 
 
 
@@ -45177,6 +46508,8 @@ Sequences producing significant alignments:                       (Bits)  Value
 
 ref685                                                              235  2e-63
 ref685                                                              138  4e-34
+ref41                                                                67  1e-12
+ref196                                                               64  7e-12
 
 ALIGNMENTS
 > ref685
@@ -45213,6 +46546,38 @@ Sbjct  527  CTCAAGCCTTCAAGTGGGGACTATACCTATTCAAACTACCACACATACACACACGCATAC  586
 Query  61   ATATACAATTTAAAAAACTATATAAACAAAATACTTATTAACATCCATAAAACACA  116
             ||||||| ||| |||  |||||||  ||| ||||||||||||||||||  | ||||
 Sbjct  587  ATATACAGTTTGAAAGGCTATATAGGCAAGATACTTATTAACATCCATGGAGCACA  642
+
+
+> ref41
+Length=1147
+
+ Score =  67.1 bits (73), Expect =  1e-12
+ Identities = 78/99 (79%), Gaps = 5/99 (5%)
+ Strand=Minus/Minus
+
+Query  116  TGTGTTTTATGGATGTTAATAAGTAT-TTTGTTTATATAGTTTTTTAAAT-TGTATATGT  59 
+            |||||  |   | || |  |  || | | ||| | | |   | | |   | ||| | || 
+Sbjct  593  TGTGTGGTGGTGGTGGTGGT-GGTGTGTGTGTGTGTGTGCGTGTGTGTGTGTGTGTGTGC  651
+
+Query  58   ATGCGTGTGTGTATGTGTG-GTA-GTTTGAATAGGTATA  22 
+             ||||||||||| |||||| ||  || ||  |  || | 
+Sbjct  652  GTGCGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTG  690
+
+
+> ref196
+Length=962
+
+ Score =  64.4 bits (70), Expect =  7e-12
+ Identities = 69/89 (78%), Gaps = 2/89 (2%)
+ Strand=Minus/Minus
+
+Query  110  TTATGGATGTTAATAAGTAT-TTTGTTTATATAGTTTTTTAAATTGTATATGTATGCGTG  52 
+            || ||  |||   |  || | | ||| | | |   ||| |    ||| | | | || |||
+Sbjct  211  TTGTGTGTGTGCGTGTGTGTGTCTGTGTGTGTGTGTTTGTGTG-TGTGTGTCTGTGTGTG  269
+
+Query  51   TGTGTATGTGTGGTAGTTTGAATAGGTAT  23 
+            ||||| ||||||   || ||  |  || |
+Sbjct  270  TGTGTGTGTGTGTGCGTGTGTGTGTGTGT  298
 
 
 
@@ -46305,6 +47670,7 @@ ref902                                                               77  1e-15
 ref540                                                               73  1e-14
 ref734                                                               73  1e-14
 ref71                                                                69  2e-13
+ref137                                                               66  2e-12
 
 ALIGNMENTS
 > ref705
@@ -46409,6 +47775,18 @@ Sbjct  350  TAAGTGTGTGTGTGTGTGAAAGGGTGTGTGAATGTGTATGAGTGAGTGTGTGTATGTGCA  409
 Query  93   AATTTACTAATATTTAAAATAT-AATTTATTT-TATATA  129
               | |     | |||  | | | | | | ||| | | | 
 Sbjct  410  TGTGT----GTGTTT-GAGTGTGAGTGTGTTTGTGTGTG  443
+
+
+> ref137
+Length=540
+
+ Score =  66.2 bits (72), Expect =  2e-12
+ Identities = 50/58 (86%), Gaps = 1/58 (2%)
+ Strand=Minus/Minus
+
+Query  34   TAAACATATACTTTTATATATAT-TATATATATATATATAAATAAATATATAATTATA  90 
+            | |   | |   | ||| | | | | | | | | | | |   | | |   ||  | | 
+Sbjct  306  TGAGTTTGTGTGTATATGTGTGTATGTGTGTGTGTGTGTGGGTGAGTGGGTAGGTGTG  363
 
 
 
@@ -48066,6 +49444,14 @@ ref727                                                               74  8e-15
 ref6                                                                 73  1e-14
 ref41                                                                71  5e-14
 ref107                                                               69  2e-13
+ref139                                                               67  1e-12
+ref224                                                               67  1e-12
+ref282                                                               67  1e-12
+ref360                                                               65  4e-12
+ref548                                                               65  4e-12
+ref116                                                               63  1e-11
+ref465                                                               59  2e-10
+ref131                                                               58  6e-10
 
 ALIGNMENTS
 > ref734
@@ -48182,6 +49568,110 @@ Sbjct  28   GTATTTAAGTGTGTATGTATTTATGTAAGTTTGTATGTGTGTGTATGTATGTATGTATGT  87
 Query  18   ATATAGGTACGTATGAAT  1  
             |  || ||| || || ||
 Sbjct  88   AAGTATGTATGTGTGTAT  105
+
+
+> ref139
+Length=738
+
+ Score =  67.1 bits (73), Expect =  1e-12
+ Identities = 41/44 (93%), Gaps = 0/44 (0%)
+ Strand=Plus/Plus
+
+Query  14   TATATATATATATATATACATACATACTTATTTATACTTAAAAT  57 
+             | | | ||| | | | ||| ||| ||  | ||| ||  | || 
+Sbjct  74   CACACACATACACACACACACACACACACACTTACACACACAAC  117
+
+
+> ref224
+Length=810
+
+ Score =  67.1 bits (73), Expect =  1e-12
+ Identities = 44/49 (90%), Gaps = 0/49 (0%)
+ Strand=Plus/Plus
+
+Query  3    TCATACGTACCTATATATATATATATATACATACATACTTATTTATACT  51 
+            ||| ||  ||  | | | | | | | | || ||||   | | ||| || 
+Sbjct  422  TCACACACACACACACACACACACACACACCTACACCATCACTTACACC  470
+
+
+> ref282
+Length=412
+
+ Score =  67.1 bits (73), Expect =  1e-12
+ Identities = 55/66 (83%), Gaps = 1/66 (2%)
+ Strand=Minus/Minus
+
+Query  69   TTATTTTA-TTTTATTTTAAGTATAAATAAGTATGTATGTATATATATATATATATAGGT  11 
+            || |||||  ||||| |   || |   |  || ||| ||| | | |   | | | |   |
+Sbjct  247  TTGTTTTACATTTATCTAGTGTGTGTGTGTGTGTGTGTGTGTGTGTGAGTGTGTGTGTAT  306
+
+Query  10   ACGTAT  5  
+            | || |
+Sbjct  307  ATGTGT  312
+
+
+> ref360
+Length=558
+
+ Score =  65.3 bits (71), Expect =  4e-12
+ Identities = 37/38 (97%), Gaps = 0/38 (0%)
+ Strand=Minus/Minus
+
+Query  47   TAAATAAGTATGTATGTATATATATATATATATAGGTA  10 
+            | |||| || ||| ||| | | | | | | | |  || 
+Sbjct  288  TGAATAGGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTG  325
+
+
+> ref548
+Length=901
+
+ Score =  65.3 bits (71), Expect =  4e-12
+ Identities = 43/48 (90%), Gaps = 0/48 (0%)
+ Strand=Plus/Plus
+
+Query  1    ATTCATACGTACCTATATATATATATATATACATACATACTTATTTAT  48 
+            || || ||  ||  | | | | | | | | ||| ||| || ||| |||
+Sbjct  549  ATACACACACACACACACACACACACACACACACACACACATATATAT  596
+
+
+> ref116
+Length=864
+
+ Score =  63.5 bits (69), Expect =  1e-11
+ Identities = 55/65 (85%), Gaps = 4/65 (6%)
+ Strand=Plus/Plus
+
+Query  1    ATTCATACGTACCTATATATATATATATATACATACATACTTATTTATACTTA-AAATA-  58 
+            | |||||   || |||| | | |||||  |||| |||||| ||   | ||| | | | | 
+Sbjct  786  ACTCATA--CACATATACACACATATACTTACACACATACATACAGACACTCATACACAC  843
+
+Query  59   AAATA  63 
+            ||| |
+Sbjct  844  AAACA  848
+
+
+> ref465
+Length=1228
+
+ Score =  59.9 bits (65), Expect =  2e-10
+ Identities = 43/50 (86%), Gaps = 0/50 (0%)
+ Strand=Plus/Plus
+
+Query  4     CATACGTACCTATATATATATATATATACATACATACTTATTTATACTTA  53  
+             || ||  ||  | | ||||||||||||| ||| |||  ||| ||||| ||
+Sbjct  1165  CACACACACACACACATATATATATATATATATATATATATATATACCTA  1214
+
+
+> ref131
+Length=591
+
+ Score =  58.1 bits (63), Expect =  6e-10
+ Identities = 36/39 (92%), Gaps = 0/39 (0%)
+ Strand=Minus/Minus
+
+Query  54   TTAAGTATAAATAAGTATGTATGTATATATATATATATA  16 
+            || ||| | | |  || ||| ||| | | | | |  || 
+Sbjct  168  TTCAGTGTGAGTGTGTGTGTGTGTGTGTGTGTGTGAATG  206
 
 
 
@@ -48783,6 +50273,8 @@ Length=130
 Sequences producing significant alignments:                       (Bits)  Value
 
 ref739                                                              235  2e-63
+ref575                                                               65  4e-12
+ref420                                                               58  6e-10
 
 ALIGNMENTS
 > ref739
@@ -48803,6 +50295,30 @@ Sbjct  394  ATCCCATACCTGCTTGGCCTTTACAGCAGTGCCAAGGACTAGCCTAGGCTTGGGGAAGGG  453
 Query  121  TTCTAAAAAA  130
             |||| | | |
 Sbjct  454  TTCTGAGAGA  463
+
+
+> ref575
+Length=1075
+
+ Score =  65.3 bits (71), Expect =  4e-12
+ Identities = 49/57 (86%), Gaps = 2/57 (4%)
+ Strand=Minus/Plus
+
+Query  130  TTTTTTAGAATTTTTTTTTAAGTTTAGGTTAGTTTTTGGTATTGTTGTAAAGGTTAA  74 
+            | |   |||||  || |  ||| | ||  | |  ||||| |  || |   |||||||
+Sbjct  813  TCTCCCAGAATCCTTCTCCAAGCTGAGTCTGGCCTTTGGCA--GTGGCTCAGGTTAA  867
+
+
+> ref420
+Length=1081
+
+ Score =  58.1 bits (63), Expect =  6e-10
+ Identities = 39/44 (89%), Gaps = 0/44 (0%)
+ Strand=Minus/Minus
+
+Query  18   CTAAACAATAAAAAAAAAAAAAAAAAAAAATTACAATAAAAAAA  61 
+            ||  |||||| |  | | | | | | | |   | |   | | | 
+Sbjct  860  CTGCACAATAGAGGAGAGAGAGAGAGAGAGAGAGAGAGAGAGAG  903
 
 
 
@@ -52600,6 +54116,8 @@ Sequences producing significant alignments:                       (Bits)  Value
 
 ref804                                                              235  2e-63
 ref805                                                              235  2e-63
+ref517                                                               67  1e-12
+ref351                                                               59  2e-10
 
 ALIGNMENTS
 > ref804
@@ -52640,6 +54158,46 @@ Sbjct  135  TTTCCAGCCCACGTGGCTTAAGGGAACATGCATCCCATCCCTAGCTGAGAAGCTGTTGAC  194
 Query  121  AATTAATAAA  130
             | || ||  |
 Sbjct  195  AGTTGATGGA  204
+
+
+> ref517
+Length=1058
+
+ Score =  67.1 bits (73), Expect =  1e-12
+ Identities = 98/133 (74%), Gaps = 7/133 (5%)
+ Strand=Minus/Plus
+
+Query  130  TTTATTAATTGTTAATAGTTTTTTAGTTAGGGATGGGATGTATGTTTTTTTAAGTTATGT  71 
+             |||  | ||||  | || || |  ||||||||||||   | || | |  |    |  | 
+Sbjct  365  CTTACCAGTTGTAGACAGCTTCTGTGTTAGGGATGGGGGCTGTG-TCTACTGCTCTTCGC  423
+
+Query  70   -GGGTTGGAAAGTTTATT--GGTATAATTTTGTATAGGTTTAATGTAAATAATTATAGTT  14 
+             |   |||   |   ||   | |  ||  |  |  |||  |  ||      |  ||||| 
+Sbjct  424  AGCACTGG--GGCCCATCTAGCTTGAACCTGTTGCAGGCCT-GTGCCTGCTACCATAGTC  480
+
+Query  13   TTTGTGAGTTTAT  1  
+            | |||||||  ||
+Sbjct  481  TCTGTGAGTCCAT  493
+
+
+> ref351
+Length=595
+
+ Score =  59.9 bits (65), Expect =  2e-10
+ Identities = 94/133 (71%), Gaps = 9/133 (7%)
+ Strand=Minus/Minus
+
+Query  1    ATAAACTCACAAAAACTATAATTATTTACATTAAACCT-----ATACAAAATTATACCAA  55 
+             ||||||||||||  || |   ||| || |  | ||||     | ||||  | | |  | 
+Sbjct  340  GTAAACTCACAAAGGCTGTGTATATATAGACAAGACCTTCCCCAAACAAGGTGAAATGAG  399
+
+Query  56   TAAACTTTCCAACCCACATAACTTAAA-AAAACATACATCCCATCCCTAACTAAAAAACT  114
+              ||  |||   |     | |||      ||| | |   |||| ||  | |  |  | ||
+Sbjct  400  CCAAAATTCTGGC---ATTGACTGGGGCTAAAGAAAAGCCCCACCCACAGCAGATGAGCT  456
+
+Query  115  ATTAACAATTAAT  127
+            |||  ||| | ||
+Sbjct  457  ATTGGCAACTGAT  469
 
 
 
@@ -54638,6 +56196,7 @@ ref14                                                               179  1e-46
 ref893                                                              164  5e-42
 ref973                                                              162  2e-41
 ref915                                                              154  5e-39
+ref469                                                               60  9e-11
 
 ALIGNMENTS
 > ref825
@@ -54734,6 +56293,18 @@ Sbjct  844  AGGCTTTTGTAGTAGGATCTGATGATTTTTTGGATTTCTTCAGATTCTGTTGTTATGTCT  903
 Query  61   TTTTTTTTATTTTTTATTTTGTTAATTAGGATATTGTTTTTGTGT  105
                |||| || | | | |||||||||||||| | |||   |||| 
 Sbjct  904  CCCTTTTCATCTCTCAATTTGTTAATTAGGACACTGTCCCTGTGC  948
+
+
+> ref469
+Length=1121
+
+ Score =  60.8 bits (66), Expect =  9e-11
+ Identities = 44/50 (88%), Gaps = 1/50 (2%)
+ Strand=Minus/Minus
+
+Query  83   AACAAAATAAAAAATAAAAAAAAAAAAATAACA-ACAAAACACGAAAAAA  35 
+            || ||  ||    || ||  ||  ||   |       |  || | ||| |
+Sbjct  949  AAAAAGGTAGGGGATGAAGGAAGGAAGGGAGGGTGGGAGGCAGGGAAAGA  998
 
 
 
@@ -56405,6 +57976,8 @@ Length=130
 Sequences producing significant alignments:                       (Bits)  Value
 
 ref846                                                              235  2e-63
+ref31                                                                62  3e-11
+ref401                                                               58  6e-10
 
 ALIGNMENTS
 > ref846
@@ -56425,6 +57998,34 @@ Sbjct  290  CACAAGATAAAAGGCACAGAGCTAAAAGAGTAAATAATATACATAATGGCTTCAAGTTGC  349
 Query  121  TATAGTTTAT  130
             || ||| || 
 Sbjct  350  TACAGTCTAC  359
+
+
+> ref31
+Length=852
+
+ Score =  62.6 bits (68), Expect =  3e-11
+ Identities = 40/44 (91%), Gaps = 0/44 (0%)
+ Strand=Minus/Minus
+
+Query  3    ATATATATATATATGTATATGTATTTATTAGTTATAATAAAGTT  46 
+             | | | | | | ||| | ||| | | || |||   | |  |||
+Sbjct  226  GTGTGTGTGTGTGTGTGTGTGTGTGTGTTTGTTGAGACAGGGTT  269
+
+
+> ref401
+Length=797
+
+ Score =  58.1 bits (63), Expect =  6e-10
+ Identities = 50/61 (82%), Gaps = 1/61 (2%)
+ Strand=Minus/Minus
+
+Query  3    ATATATATATATATGTATATGTATTTATTAGT-TATAATAAAGTTAGTATTTTGGATAAT  61 
+             | | | | | | ||| | ||||||| | | | | |  || | | | | |||  || |||
+Sbjct  702  GTGTGTGTGTGTGTGTGTGTGTATTTGTAAATGTGTGTTAGAATAACTTTTTCTGAAAAT  761
+
+Query  62   A  62 
+             
+Sbjct  762  G  762
 
 
 
@@ -60152,6 +61753,7 @@ Sequences producing significant alignments:                       (Bits)  Value
 ref879                                                              235  2e-63
 ref879                                                              120  1e-28
 ref98                                                               107  7e-25
+ref868                                                               65  4e-12
 
 ALIGNMENTS
 > ref879
@@ -60208,6 +61810,18 @@ Sbjct  170  AACAGGGACTGCTCAGGCTTTTATCCATAGCCAGGAAGCAGAGCTGAGACTTAGACCCCT  229
 Query  33   GGGTATTTTTTTTTTTTTAGAGGAGAGT  6  
             ||| |    ||  ||   ||||||||||
 Sbjct  230  GGGCA--CATTCCTTGCCAGAGGAGAGT  255
+
+
+> ref868
+Length=674
+
+ Score =  65.3 bits (71), Expect =  4e-12
+ Identities = 40/43 (93%), Gaps = 0/43 (0%)
+ Strand=Minus/Minus
+
+Query  87   CCCTATTCAAAAAACTCTATTACTTCTATAACCTAAATACTCT  129
+            |||| ||||| || |||| || |||||  | || | || ||||
+Sbjct  1    CCCTGTTCAAGAAGCTCTGTTGCTTCTGCAGCCCACATGCTCT  43 
 
 
 
@@ -60572,6 +62186,7 @@ ref626                                                              134  5e-33
 ref586                                                              132  3e-32
 ref31                                                               131  6e-32
 ref237                                                              104  5e-24
+ref128                                                               66  2e-12
 
 ALIGNMENTS
 > ref883
@@ -60844,6 +62459,18 @@ Sbjct  1002  TTTTTTGTTTTTCAAGACAGGGTTTCTCTGTGTAGCCCTGGCTGTCCTGGAACTCACTTT  1061
 Query  62    GTAGATTAGGTTGTTTTTAGATTTA  86  
              |||||  ||| ||   ||  | | |
 Sbjct  1062  GTAGACCAGGCTGACCTTGAACTCA  1086
+
+
+> ref128
+Length=986
+
+ Score =  66.2 bits (72), Expect =  2e-12
+ Identities = 42/46 (91%), Gaps = 0/46 (0%)
+ Strand=Plus/Plus
+
+Query  34   TTTTTTTGGTTGTTTTGGAATTTATTATGTAGATTAGGTTGTTTTT  79 
+              |   ||| |||| ||||| | | | ||||||  ||| ||    |
+Sbjct  573  CCTGCCTGGCTGTTCTGGAACTCACTCTGTAGAACAGGCTGGCCCT  618
 
 
 
@@ -61125,6 +62752,7 @@ Length=130
 Sequences producing significant alignments:                       (Bits)  Value
 
 ref890                                                              235  2e-63
+ref902                                                               59  2e-10
 
 ALIGNMENTS
 > ref890
@@ -61145,6 +62773,22 @@ Sbjct  474  GATCTGATCTCTCATCTTCCTGTTCCTGCATTCCTCATGGCCACTGTGGAGATCTTATCC  533
 Query  121  TTTGGATTTG  130
             | ||||||||
 Sbjct  534  TCTGGATTTG  543
+
+
+> ref902
+Length=940
+
+ Score =  59.9 bits (65), Expect =  2e-10
+ Identities = 66/84 (79%), Gaps = 7/84 (8%)
+ Strand=Minus/Minus
+
+Query  98   ATAAAAAATACAAAAACAAAAAAATAAAAAATCAAATCTCAACCATACAAAAAACCGAAA  39 
+            |||   |||  ||||    ||||| | ||||    |   |||    ||||   |  || |
+Sbjct  640  ATATGGAATTGAAAAGAGGAAAAAAAGAAAA--GGA--GCAA--GAACAAGGGAGTGAGA  693
+
+Query  38   AAAACAAATAAAAATAAAACAAAA  15 
+             |   | ||| ||| | |   |  
+Sbjct  694  GAGG-AGATAGAAAGAGAGAGAGG  716
 
 
 
@@ -61463,6 +63107,9 @@ ref125                                                               71  5e-14
 ref125                                                               69  2e-13
 ref125                                                               68  6e-13
 ref347                                                               68  6e-13
+ref125                                                               66  2e-12
+ref679                                                               60  9e-11
+ref679                                                               58  3e-10
 
 ALIGNMENTS
 > ref894
@@ -61643,6 +63290,46 @@ Sbjct  588  TTTTTTTTTTTTTTAGAATGAATTCAGGTCTCTCTCTTTTTTTTTTTTTTTTTTTTTTTT  647
 Query  127  T  127
             |
 Sbjct  648  T  648
+
+
+> ref125
+Length=832
+
+ Score =  66.2 bits (72), Expect =  2e-12
+ Identities = 69/89 (78%), Gaps = 9/89 (10%)
+ Strand=Minus/Minus
+
+Query  35   AATTTTTTTTAAGT--GTTTGGAAATTTTTTTGTTT--TTTTTTTTTTATTTATAATTAA  90 
+             |||||||| || |   |||  | ||||  ||||||  ||  |||||| |||||  || |
+Sbjct  582  GATTTTTTTAAATTTATTTTTAAGATTTGGTTGTTTGGTTAGTTTTTTGTTTATTTTTGA  641
+
+Query  91   TAAGTATTTTTTTTTTTTTTTTTTTTTTT  119
+            |     |||||||||||||||||||||||
+Sbjct  642  T-----TTTTTTTTTTTTTTTTTTTTTTT  665
+
+
+> ref679
+Length=943
+
+ Score =  60.8 bits (66), Expect =  9e-11
+ Identities = 45/51 (88%), Gaps = 4/51 (8%)
+ Strand=Minus/Minus
+
+Query  74   TTTTTATTTATAATTAATAAGTATTTTTTTTTTTTTTTTTTTTTTTTTTTT  124
+            ||||| ||| |  ||  |   | ||||||||||||||||||||||||||||
+Sbjct  487  TTTTTGTTTGT--TTGTT--TTGTTTTTTTTTTTTTTTTTTTTTTTTTTTT  533
+
+
+> ref679
+Length=943
+
+ Score =  59.0 bits (64), Expect =  3e-10
+ Identities = 44/50 (88%), Gaps = 4/50 (8%)
+ Strand=Minus/Minus
+
+Query  74   TTTTTATTTATAATTAATAAGTATTTTTTTTTTTTTTTTTTTTTTTTTTT  123
+            ||||| ||| |  ||  |   | |||||||||||||||||||||||||||
+Sbjct  487  TTTTTGTTTGT--TTGTT--TTGTTTTTTTTTTTTTTTTTTTTTTTTTTT  532
 
 
 
@@ -64164,6 +65851,10 @@ ref929                                                              214  6e-57
 ref929                                                              206  1e-54
 ref929                                                              199  1e-52
 ref929                                                              192  2e-50
+ref180                                                               65  4e-12
+ref849                                                               64  7e-12
+ref849                                                               61  5e-11
+ref698                                                               58  3e-10
 
 ALIGNMENTS
 > ref929
@@ -64308,6 +65999,58 @@ Sbjct  338  AAGGAAGGAAGGAAGGAAGGAAGGAAGGGAAGAAAGAGGAAAGGAAAGAACAAAGGAGGG  397
 Query  61   AGGGGATGGAGGGAAGGGAGGGGAGAAAGAAGGAAGGGATATAGAG  106
             ||||||||||||||||||||||||||||||||||||||||| ||||
 Sbjct  398  AGGGGATGGAGGGAAGGGAGGGGAGAAAGAAGGAAGGGATACAGAG  443
+
+
+> ref180
+Length=968
+
+ Score =  65.3 bits (71), Expect =  4e-12
+ Identities = 45/50 (90%), Gaps = 1/50 (2%)
+ Strand=Minus/Minus
+
+Query  50   TTCTTTCCTTTCCTCTTTCTTCCCTTCCTTCCTTCCTTCCTTCCTTCCTT  1  
+            |||||| ||||| || ||||| |||||||||||| |||||||||||||||
+Sbjct  763  TTCTTT-CTTTCTTCCTTCTTTCCTTCCTTCCTTTCTTCCTTCCTTCCTT  811
+
+
+> ref849
+Length=1131
+
+ Score =  64.4 bits (70), Expect =  7e-12
+ Identities = 47/55 (85%), Gaps = 0/55 (0%)
+ Strand=Minus/Minus
+
+Query  55   CTTTATTCTTTCCTTTCCTCTTTCTTCCCTTCCTTCCTTCCTTCCTTCCTTCCTT  1  
+            |||| |  ||||||| | || ||| | ||||||||||||||||||||||||||||
+Sbjct  944  CTTTCTCTTTTCCTTCCTTCCTTCCTTCCTTCCTTCCTTCCTTCCTTCCTTCCTT  998
+
+
+> ref849
+Length=1131
+
+ Score =  61.7 bits (67), Expect =  5e-11
+ Identities = 49/57 (86%), Gaps = 3/57 (5%)
+ Strand=Minus/Minus
+
+Query  55   CTTTA--TTCTTTCCTTTCCTCTTTCTTCCCTTCCTTCCTTCCTTCCTTCCTTCCTT  1  
+            |||||  |||||| |||||   |||| | ||||||||||||||||||||||||||||
+Sbjct  931  CTTTAATTTCTTT-CTTTCTCTTTTCCTTCCTTCCTTCCTTCCTTCCTTCCTTCCTT  986
+
+
+> ref698
+Length=866
+
+ Score =  59.0 bits (64), Expect =  3e-10
+ Identities = 54/65 (83%), Gaps = 4/65 (6%)
+ Strand=Plus/Plus
+
+Query  1    AAGGAAGGAAGGAAGGAAGGAAGGAAGGGAAGAAAG--AGGAAAGGAAAGAATAAAGGAG  58 
+            ||| ||| |||||||||||||||||||| |||||||  | |||| ||||||| |  ||||
+Sbjct  113  AAGAAAGAAAGGAAGGAAGGAAGGAAGGAAAGAAAGGAAAGAAA-GAAAGAAAATTGGAG  171
+
+Query  59   -GGAG  62 
+             ||||
+Sbjct  172  AGGAG  176
 
 
 
@@ -66219,6 +67962,8 @@ Length=129
 Sequences producing significant alignments:                       (Bits)  Value
 
 ref949                                                              233  7e-63
+ref157                                                               62  3e-11
+ref793                                                               61  5e-11
 
 ALIGNMENTS
 > ref949
@@ -66241,6 +67986,30 @@ Query  121  AGTGTTGTT  129
 Sbjct  457  AGTGTTGCT  465
 
 
+> ref157
+Length=578
+
+ Score =  62.6 bits (68), Expect =  3e-11
+ Identities = 37/39 (95%), Gaps = 0/39 (0%)
+ Strand=Minus/Plus
+
+Query  105  TATATACAAATACATTATATATAATATACATATATATAT  67 
+             | | ||| | |||  ||| |||||| | ||||| | ||
+Sbjct  71   CACACACACACACACCATACATAATACATATATACACAT  109
+
+
+> ref793
+Length=912
+
+ Score =  61.7 bits (67), Expect =  5e-11
+ Identities = 39/42 (93%), Gaps = 3/42 (7%)
+ Strand=Minus/Minus
+
+Query  65   ATATATATATATGTATATTATATATAATGTATTTGTATATAA  106
+            || | ||| ||||| | || |||   |||| ||||||| |  
+Sbjct  346  ATGTGTATGTATGTGTGTTGTAT---ATGTGTTTGTATGTGG  384
+
+
 
 Lambda     K      H
    0.625   0.4100   0.7800
@@ -66259,6 +68028,7 @@ Length=130
 Sequences producing significant alignments:                       (Bits)  Value
 
 ref950                                                              235  2e-63
+ref950                                                               58  3e-10
 
 ALIGNMENTS
 > ref950
@@ -66279,6 +68049,18 @@ Sbjct  608  CCTTTTACATGGACACGAATTTACTTGTTTTTATGAAAACTACCACCACCACCACAACAA  667
 Query  121  TAATAATAAT  130
              || || || 
 Sbjct  668  CAACAACAAC  677
+
+
+> ref950
+Length=964
+
+ Score =  59.0 bits (64), Expect =  3e-10
+ Identities = 32/32 (100%), Gaps = 0/32 (0%)
+ Strand=Minus/Plus
+
+Query  130  ATTATTATTATTATTATAATAATAATAATAAT  99 
+            | ||  |  |  |  | || || || || || 
+Sbjct  646  ACTACCACCACCACCACAACAACAACAACAAC  677
 
 
 
@@ -67966,6 +69748,7 @@ ref845                                                              161  4e-41
 ref974                                                              127  7e-31
 ref790                                                               88  3e-19
 ref595                                                               71  5e-14
+ref832                                                               65  4e-12
 
 ALIGNMENTS
 > ref974
@@ -68114,6 +69897,18 @@ Length=854
 Query  56   AAATTACTA-TACA-CACCAAAACTCTCAATTACCATAAATAAAAAAACCAAAATATT  1  
              |||  | | |||| || | |||||||||||||||||| ||  | |||||||| ||||
 Sbjct  304  GAATAGCCACTACACCAGCCAAACTCTCAATTACCATAGATGGAGAAACCAAAGTATT  361
+
+
+> ref832
+Length=664
+
+ Score =  65.3 bits (71), Expect =  4e-12
+ Identities = 37/38 (97%), Gaps = 0/38 (0%)
+ Strand=Minus/Minus
+
+Query  38  AAACTCTCAATTACCATAAATAAAAAAACCAAAATATT  1 
+           ||||| |||||||||||| ||  |  ||||||| ||||
+Sbjct  8   AAACTTTCAATTACCATAGATGGAGGAACCAAAGTATT  45
 
 
 
@@ -69095,6 +70890,7 @@ ref663                                                              146  1e-36
 ref915                                                              123  9e-30
 ref736                                                              102  3e-23
 ref736                                                               75  4e-15
+ref97                                                                66  2e-12
 
 ALIGNMENTS
 > ref993
@@ -69299,6 +71095,18 @@ Sbjct  1    ATGAATGGGTGTTGGATTTTGTCAAATGCTTACTCCAAATCTAAGGAGATGATCATGTGG  60
 Query  115  TTTTTGTTTTTGAGTT  130
             ||||||| ||||| ||
 Sbjct  61   TTTTTGTCTTTGAATT  76 
+
+
+> ref97
+Length=587
+
+ Score =  66.2 bits (72), Expect =  2e-12
+ Identities = 42/46 (91%), Gaps = 0/46 (0%)
+ Strand=Minus/Minus
+
+Query  130  AACTCAAAAACAAAAACCACATCATCATCTAATTAAATACGAAAAA  85 
+            |||||||| ||||||||||||| ||||| | |||| || |  | ||
+Sbjct  542  AACTCAAAGACAAAAACCACATGATCATTTCATTAGATGCAGAGAA  587
 
 
 

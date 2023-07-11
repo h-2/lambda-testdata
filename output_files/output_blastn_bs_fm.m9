@@ -246,7 +246,7 @@ qry33	ref33	100.00	130	0	0	1	130	230	359	2e-63	 236
 # Query: qry34
 # Database: db_nucl_bs_fm.fasta.gz.lba
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 11 hits found
+# 12 hits found
 qry34	ref34	100.00	130	0	0	1	130	103	232	2e-63	 236
 qry34	ref552	87.78	90	5	2	1	86	176	263	1e-25	 110
 qry34	ref207	83.33	96	5	3	92	1	548	636	4e-22	98.7
@@ -258,6 +258,7 @@ qry34	ref275	82.28	79	10	1	75	1	50	128	2e-16	79.7
 qry34	ref125	80.00	85	8	2	1	85	392	467	1e-15	77.0
 qry34	ref65	85.51	69	5	2	1	64	543	611	2e-15	76.1
 qry34	ref435	89.66	58	0	2	57	4	165	220	4e-15	75.2
+qry34	ref812	78.57	84	11	3	80	3	506	588	7e-12	64.4
 # BLASTN 2.2.26+ [I/O Module of SeqAn-2.4.1, http://www.seqan.de]
 # Query: qry35
 # Database: db_nucl_bs_fm.fasta.gz.lba
@@ -464,8 +465,11 @@ qry61	ref60	100.00	46	0	0	1	46	910	955	8e-18	84.2
 # Query: qry62
 # Database: db_nucl_bs_fm.fasta.gz.lba
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 1 hits found
+# 4 hits found
 qry62	ref62	100.00	130	0	0	1	130	160	289	2e-63	 236
+qry62	ref211	75.24	105	20	3	105	1	970	1068	4e-12	65.3
+qry62	ref875	78.75	80	11	2	81	2	888	961	4e-12	65.3
+qry62	ref998	73.12	93	18	1	93	1	536	621	6e-10	58.1
 # BLASTN 2.2.26+ [I/O Module of SeqAn-2.4.1, http://www.seqan.de]
 # Query: qry63
 # Database: db_nucl_bs_fm.fasta.gz.lba
@@ -544,13 +548,18 @@ qry70	ref70	100.00	130	0	0	1	130	241	370	2e-63	 236
 # Query: qry71
 # Database: db_nucl_bs_fm.fasta.gz.lba
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 6 hits found
+# 11 hits found
 qry71	ref71	100.00	130	0	0	1	130	489	618	2e-63	 236
 qry71	ref71	100.00	104	0	0	1	104	489	592	3e-49	 189
 qry71	ref71	100.00	70	0	0	1	70	489	558	7e-31	 128
 qry71	ref71	85.86	99	14	0	32	130	520	618	1e-27	 117
 qry71	ref71	76.64	107	18	4	103	3	425	530	2e-13	69.8
 qry71	ref71	76.64	107	18	4	103	2	357	461	2e-13	69.8
+qry71	ref116	84.75	59	5	2	1	55	798	856	5e-11	61.7
+qry71	ref297	76.42	106	20	5	1	101	648	753	5e-11	61.7
+qry71	ref297	90.48	42	4	0	1	42	632	673	3e-10	59.0
+qry71	ref548	90.48	42	4	0	1	42	525	566	3e-10	59.0
+qry71	ref492	92.31	39	3	0	42	4	5	43	6e-10	58.1
 # BLASTN 2.2.26+ [I/O Module of SeqAn-2.4.1, http://www.seqan.de]
 # Query: qry72
 # Database: db_nucl_bs_fm.fasta.gz.lba
@@ -681,8 +690,9 @@ qry90	ref90	85.16	128	19	0	2	129	196	323	1e-36	 146
 # Query: qry91
 # Database: db_nucl_bs_fm.fasta.gz.lba
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 1 hits found
+# 2 hits found
 qry91	ref91	100.00	130	0	0	1	130	440	569	2e-63	 236
+qry91	ref731	83.78	74	5	5	86	19	310	382	7e-12	64.4
 # BLASTN 2.2.26+ [I/O Module of SeqAn-2.4.1, http://www.seqan.de]
 # Query: qry92
 # Database: db_nucl_bs_fm.fasta.gz.lba
@@ -694,7 +704,7 @@ qry92	ref92	85.71	126	18	0	5	130	375	500	8e-37	 147
 # Query: qry93
 # Database: db_nucl_bs_fm.fasta.gz.lba
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 15 hits found
+# 16 hits found
 qry93	ref93	100.00	130	0	0	1	130	526	655	2e-63	 236
 qry93	ref940	91.54	130	11	0	1	130	187	316	2e-48	 186
 qry93	ref101	90.77	130	12	0	1	130	488	617	4e-47	 182
@@ -710,6 +720,7 @@ qry93	ref892	88.51	87	9	1	45	130	514	600	2e-25	 109
 qry93	ref768	87.50	88	10	1	43	130	3	89	1e-24	 107
 qry93	ref802	77.69	130	17	2	1	130	445	562	1e-24	 107
 qry93	ref109	86.90	84	11	0	47	130	997	1080	2e-23	 103
+qry93	ref286	83.33	54	4	1	82	130	162	215	6e-10	58.1
 # BLASTN 2.2.26+ [I/O Module of SeqAn-2.4.1, http://www.seqan.de]
 # Query: qry94
 # Database: db_nucl_bs_fm.fasta.gz.lba
@@ -869,8 +880,9 @@ qry111	ref111	100.00	130	0	0	1	130	114	243	2e-63	 236
 # Query: qry112
 # Database: db_nucl_bs_fm.fasta.gz.lba
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 1 hits found
+# 2 hits found
 qry112	ref112	100.00	129	0	0	1	129	478	606	7e-63	 234
+qry112	ref427	90.48	42	4	0	1	42	400	441	3e-10	59.0
 # BLASTN 2.2.26+ [I/O Module of SeqAn-2.4.1, http://www.seqan.de]
 # Query: qry113
 # Database: db_nucl_bs_fm.fasta.gz.lba
@@ -990,7 +1002,7 @@ qry129	ref129	100.00	130	0	0	1	130	517	646	2e-63	 236
 # Query: qry130
 # Database: db_nucl_bs_fm.fasta.gz.lba
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 8 hits found
+# 10 hits found
 qry130	ref130	100.00	130	0	0	1	130	102	231	2e-63	 236
 qry130	ref130	88.33	120	14	0	1	120	102	221	5e-39	 155
 qry130	ref196	76.23	122	17	3	5	126	230	339	6e-19	87.8
@@ -999,11 +1011,13 @@ qry130	ref196	76.27	118	16	3	9	126	234	339	4e-18	85.1
 qry130	ref282	95.65	46	2	0	5	50	266	311	4e-15	75.2
 qry130	ref401	93.33	45	3	0	5	49	679	723	3e-13	68.9
 qry130	ref617	93.33	45	3	0	5	49	70	114	3e-13	68.9
+qry130	ref31	89.80	49	5	0	5	53	213	261	1e-12	67.1
+qry130	ref139	92.50	40	3	0	50	11	76	115	2e-10	59.9
 # BLASTN 2.2.26+ [I/O Module of SeqAn-2.4.1, http://www.seqan.de]
 # Query: qry131
 # Database: db_nucl_bs_fm.fasta.gz.lba
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 7 hits found
+# 25 hits found
 qry131	ref131	100.00	130	0	0	1	130	236	365	2e-63	 236
 qry131	ref584	78.76	113	16	5	108	1	279	388	5e-17	81.5
 qry131	ref509	90.91	55	4	1	54	1	534	588	8e-15	74.3
@@ -1011,6 +1025,24 @@ qry131	ref650	79.12	91	15	2	1	87	187	277	8e-15	74.3
 qry131	ref617	80.68	88	13	3	88	1	11	94	1e-14	73.4
 qry131	ref378	74.58	118	19	4	113	1	320	431	9e-14	70.7
 qry131	ref403	95.24	42	2	0	42	1	63	104	6e-13	68.0
+qry131	ref202	93.18	44	3	0	44	1	640	683	1e-12	67.1
+qry131	ref31	95.12	41	2	0	1	41	218	258	2e-12	66.2
+qry131	ref207	97.37	38	1	0	39	2	13	50	4e-12	65.3
+qry131	ref214	95.00	40	2	0	40	1	195	234	7e-12	64.4
+qry131	ref390	100.00	35	0	0	1	35	345	379	7e-12	64.4
+qry131	ref401	95.00	40	2	0	1	40	690	729	7e-12	64.4
+qry131	ref552	95.00	40	2	0	40	1	538	577	7e-12	64.4
+qry131	ref641	100.00	35	0	0	35	1	1051	1085	7e-12	64.4
+qry131	ref702	100.00	35	0	0	1	35	391	425	7e-12	64.4
+qry131	ref6	92.86	42	3	0	42	1	53	94	1e-11	63.5
+qry131	ref117	86.54	52	7	0	52	1	58	109	1e-11	63.5
+qry131	ref360	97.30	37	1	0	38	2	289	325	1e-11	63.5
+qry131	ref401	87.50	56	5	2	54	1	652	707	1e-11	63.5
+qry131	ref528	93.18	44	2	1	43	1	577	620	1e-11	63.5
+qry131	ref771	90.20	51	3	2	49	1	277	327	1e-11	63.5
+qry131	ref86	97.22	36	1	0	36	1	497	532	5e-11	61.7
+qry131	ref107	97.22	36	1	0	36	1	143	178	5e-11	61.7
+qry131	ref31	100.00	33	0	0	33	1	211	243	9e-11	60.8
 # BLASTN 2.2.26+ [I/O Module of SeqAn-2.4.1, http://www.seqan.de]
 # Query: qry132
 # Database: db_nucl_bs_fm.fasta.gz.lba
@@ -1050,7 +1082,7 @@ qry136	ref824	74.62	130	17	3	1	129	720	834	6e-19	87.8
 # Query: qry137
 # Database: db_nucl_bs_fm.fasta.gz.lba
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 15 hits found
+# 18 hits found
 qry137	ref137	100.00	130	0	0	1	130	265	394	2e-63	 236
 qry137	ref727	89.87	79	8	0	116	38	525	603	7e-25	 108
 qry137	ref41	85.87	92	12	1	128	38	601	692	5e-24	 105
@@ -1066,6 +1098,9 @@ qry137	ref131	86.89	61	8	0	46	106	207	267	4e-15	75.2
 qry137	ref275	81.58	76	13	1	39	114	593	667	5e-14	71.6
 qry137	ref254	81.69	71	13	0	46	116	95	165	9e-14	70.7
 qry137	ref678	95.35	43	2	0	80	38	610	652	2e-13	69.8
+qry137	ref458	82.86	70	10	2	30	97	255	324	2e-12	66.2
+qry137	ref991	88.68	53	5	1	81	29	1	52	2e-12	66.2
+qry137	ref275	83.05	59	10	0	103	45	594	652	3e-11	62.6
 # BLASTN 2.2.26+ [I/O Module of SeqAn-2.4.1, http://www.seqan.de]
 # Query: qry138
 # Database: db_nucl_bs_fm.fasta.gz.lba
@@ -1496,8 +1531,9 @@ qry194	ref194	90.77	130	12	0	1	130	263	392	4e-47	 182
 # Query: qry195
 # Database: db_nucl_bs_fm.fasta.gz.lba
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 1 hits found
+# 2 hits found
 qry195	ref195	100.00	130	0	0	1	130	383	512	2e-63	 236
+qry195	ref708	74.34	113	22	5	117	6	654	760	6e-10	58.1
 # BLASTN 2.2.26+ [I/O Module of SeqAn-2.4.1, http://www.seqan.de]
 # Query: qry196
 # Database: db_nucl_bs_fm.fasta.gz.lba
@@ -1550,9 +1586,10 @@ qry202	ref202	88.52	122	14	0	3	124	327	448	4e-40	 158
 # Query: qry203
 # Database: db_nucl_bs_fm.fasta.gz.lba
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 2 hits found
+# 3 hits found
 qry203	ref203	100.00	130	0	0	1	130	306	435	2e-63	 236
 qry203	ref228	78.16	87	10	2	111	33	342	427	5e-14	71.6
+qry203	ref870	75.86	87	12	2	111	33	941	1026	3e-11	62.6
 # BLASTN 2.2.26+ [I/O Module of SeqAn-2.4.1, http://www.seqan.de]
 # Query: qry204
 # Database: db_nucl_bs_fm.fasta.gz.lba
@@ -1575,7 +1612,7 @@ qry206	ref206	100.00	130	0	0	1	130	452	581	2e-63	 236
 # Query: qry207
 # Database: db_nucl_bs_fm.fasta.gz.lba
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 10 hits found
+# 11 hits found
 qry207	ref207	100.00	130	0	0	1	130	506	635	2e-63	 236
 qry207	ref143	79.84	129	18	3	130	5	418	541	1e-25	 110
 qry207	ref552	88.24	85	8	1	130	48	177	261	1e-24	 107
@@ -1586,6 +1623,7 @@ qry207	ref226	77.48	111	23	1	22	130	179	289	2e-18	86.0
 qry207	ref34	84.29	70	7	1	130	61	104	169	1e-15	77.0
 qry207	ref65	84.38	64	2	1	130	67	544	599	8e-15	74.3
 qry207	ref435	92.00	50	4	0	70	119	164	213	1e-14	73.4
+qry207	ref125	81.25	64	5	1	130	67	393	449	7e-12	64.4
 # BLASTN 2.2.26+ [I/O Module of SeqAn-2.4.1, http://www.seqan.de]
 # Query: qry208
 # Database: db_nucl_bs_fm.fasta.gz.lba
@@ -1658,7 +1696,7 @@ qry214	ref180	89.23	65	7	0	88	24	352	416	1e-18	86.9
 # Query: qry215
 # Database: db_nucl_bs_fm.fasta.gz.lba
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 7 hits found
+# 11 hits found
 qry215	ref215	100.00	130	0	0	1	130	128	257	2e-63	 236
 qry215	ref215	91.54	130	11	0	1	130	128	257	2e-48	 186
 qry215	ref447	90.00	70	4	1	130	61	625	691	8e-21	94.2
@@ -1666,6 +1704,10 @@ qry215	ref105	93.10	58	4	0	130	73	748	805	6e-19	87.8
 qry215	ref447	85.71	70	7	1	130	61	625	691	1e-16	80.6
 qry215	ref929	93.88	49	3	0	81	129	729	777	2e-15	76.1
 qry215	ref266	84.62	65	6	1	59	119	33	97	3e-14	72.5
+qry215	ref266	85.00	60	6	1	63	119	38	97	1e-12	67.1
+qry215	ref337	92.68	41	3	0	76	116	135	175	5e-11	61.7
+qry215	ref337	92.68	41	3	0	76	116	135	175	5e-11	61.7
+qry215	ref83	88.64	44	5	0	119	76	434	477	6e-10	58.1
 # BLASTN 2.2.26+ [I/O Module of SeqAn-2.4.1, http://www.seqan.de]
 # Query: qry216
 # Database: db_nucl_bs_fm.fasta.gz.lba
@@ -1730,7 +1772,7 @@ qry225	ref225	100.00	130	0	0	1	130	146	275	2e-63	 236
 # Query: qry226
 # Database: db_nucl_bs_fm.fasta.gz.lba
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 12 hits found
+# 13 hits found
 qry226	ref226	100.00	129	0	0	1	129	231	359	7e-63	 234
 qry226	ref207	94.57	129	7	0	1	129	577	705	2e-53	 202
 qry226	ref81	94.62	130	6	1	1	129	373	502	8e-53	 201
@@ -1743,6 +1785,7 @@ qry226	ref692	88.00	125	14	1	129	6	429	553	3e-39	 155
 qry226	ref812	87.69	130	11	3	2	129	533	659	5e-39	 155
 qry226	ref65	88.79	116	6	1	129	14	481	589	1e-38	 154
 qry226	ref287	90.48	84	8	0	105	22	1	84	1e-27	 117
+qry226	ref153	95.35	43	1	1	56	98	1	42	2e-12	66.2
 # BLASTN 2.2.26+ [I/O Module of SeqAn-2.4.1, http://www.seqan.de]
 # Query: qry227
 # Database: db_nucl_bs_fm.fasta.gz.lba
@@ -1776,8 +1819,9 @@ qry229	ref229	86.15	130	18	0	1	130	571	700	5e-39	 155
 # Query: qry230
 # Database: db_nucl_bs_fm.fasta.gz.lba
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 1 hits found
+# 2 hits found
 qry230	ref230	100.00	130	0	0	1	130	182	311	2e-63	 236
+qry230	ref270	97.37	38	0	1	130	93	889	925	5e-11	61.7
 # BLASTN 2.2.26+ [I/O Module of SeqAn-2.4.1, http://www.seqan.de]
 # Query: qry231
 # Database: db_nucl_bs_fm.fasta.gz.lba
@@ -1960,7 +2004,7 @@ qry253	ref253	100.00	130	0	0	1	130	147	276	2e-63	 236
 # Query: qry254
 # Database: db_nucl_bs_fm.fasta.gz.lba
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 8 hits found
+# 9 hits found
 qry254	ref254	100.00	130	0	0	1	130	525	654	2e-63	 236
 qry254	ref254	85.38	130	19	0	1	130	525	654	1e-37	 150
 qry254	ref510	86.14	101	12	2	1	100	61	160	2e-26	 113
@@ -1969,6 +2013,7 @@ qry254	ref302	87.84	74	3	2	1	68	569	642	1e-19	90.6
 qry254	ref891	84.27	89	9	3	2	86	290	377	2e-19	89.7
 qry254	ref282	91.94	62	3	1	1	60	64	125	6e-19	87.8
 qry254	ref41	80.90	89	12	2	91	6	421	507	1e-16	80.6
+qry254	ref415	86.79	53	6	1	70	19	159	211	5e-11	61.7
 # BLASTN 2.2.26+ [I/O Module of SeqAn-2.4.1, http://www.seqan.de]
 # Query: qry255
 # Database: db_nucl_bs_fm.fasta.gz.lba
@@ -2144,9 +2189,11 @@ qry281	ref281	100.00	130	0	0	1	130	315	444	2e-63	 236
 # Query: qry282
 # Database: db_nucl_bs_fm.fasta.gz.lba
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 2 hits found
+# 4 hits found
 qry282	ref282	100.00	130	0	0	1	130	157	286	2e-63	 236
 qry282	ref282	86.92	130	17	0	1	130	157	286	2e-40	 159
+qry282	ref500	71.01	138	23	5	130	6	553	686	3e-11	62.6
+qry282	ref157	76.29	97	15	4	126	34	56	148	5e-11	61.7
 # BLASTN 2.2.26+ [I/O Module of SeqAn-2.4.1, http://www.seqan.de]
 # Query: qry283
 # Database: db_nucl_bs_fm.fasta.gz.lba
@@ -2371,10 +2418,11 @@ qry315	ref315	100.00	130	0	0	1	130	408	537	2e-63	 236
 # Query: qry316
 # Database: db_nucl_bs_fm.fasta.gz.lba
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 3 hits found
+# 4 hits found
 qry316	ref316	100.00	130	0	0	1	130	409	538	2e-63	 236
 qry316	ref976	75.94	133	18	7	1	130	102	223	6e-16	77.9
 qry316	ref343	86.44	59	6	1	6	64	342	398	3e-13	68.9
+qry316	ref358	82.81	64	10	1	64	1	191	253	1e-11	63.5
 # BLASTN 2.2.26+ [I/O Module of SeqAn-2.4.1, http://www.seqan.de]
 # Query: qry317
 # Database: db_nucl_bs_fm.fasta.gz.lba
@@ -2475,11 +2523,29 @@ qry328	ref328	80.77	130	25	0	1	130	498	627	2e-29	 123
 # Query: qry329
 # Database: db_nucl_bs_fm.fasta.gz.lba
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 4 hits found
+# 22 hits found
 qry329	ref329	100.00	130	0	0	1	130	586	715	2e-63	 236
 qry329	ref65	100.00	43	0	0	43	1	392	434	3e-16	78.8
 qry329	ref674	96.00	50	1	1	50	1	340	388	3e-16	78.8
 qry329	ref415	100.00	42	0	0	42	1	772	813	1e-15	77.0
+qry329	ref603	95.12	41	2	0	41	1	168	208	2e-12	66.2
+qry329	ref125	100.00	35	0	0	41	7	640	674	7e-12	64.4
+qry329	ref125	100.00	35	0	0	41	7	640	674	7e-12	64.4
+qry329	ref125	95.00	40	2	0	40	1	634	673	7e-12	64.4
+qry329	ref154	95.00	40	2	0	40	1	185	224	7e-12	64.4
+qry329	ref125	94.87	39	2	0	40	2	634	672	3e-11	62.6
+qry329	ref154	94.87	39	2	0	40	2	185	223	3e-11	62.6
+qry329	ref125	94.74	38	2	0	40	3	634	671	9e-11	60.8
+qry329	ref154	94.74	38	2	0	40	3	185	222	9e-11	60.8
+qry329	ref527	100.00	33	0	0	44	12	949	981	9e-11	60.8
+qry329	ref679	94.74	38	2	0	40	3	496	533	9e-11	60.8
+qry329	ref125	92.50	40	3	0	40	1	630	669	2e-10	59.9
+qry329	ref679	92.50	40	3	0	40	1	492	531	2e-10	59.9
+qry329	ref154	94.59	37	2	0	40	4	185	221	3e-10	59.0
+qry329	ref125	80.60	67	9	2	65	1	602	666	6e-10	58.1
+qry329	ref125	92.31	39	3	0	40	2	630	668	6e-10	58.1
+qry329	ref154	92.31	39	3	0	39	1	182	220	6e-10	58.1
+qry329	ref679	92.31	39	3	0	40	2	492	530	6e-10	58.1
 # BLASTN 2.2.26+ [I/O Module of SeqAn-2.4.1, http://www.seqan.de]
 # Query: qry330
 # Database: db_nucl_bs_fm.fasta.gz.lba
@@ -2605,9 +2671,11 @@ qry347	ref347	86.92	130	17	0	1	130	203	332	2e-40	 159
 # Query: qry348
 # Database: db_nucl_bs_fm.fasta.gz.lba
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 2 hits found
+# 4 hits found
 qry348	ref348	100.00	130	0	0	1	130	238	367	2e-63	 236
 qry348	ref348	80.77	130	25	0	1	130	238	367	2e-29	 123
+qry348	ref390	76.60	94	19	2	96	3	291	381	4e-12	65.3
+qry348	ref650	88.89	45	5	0	45	1	181	225	2e-10	59.9
 # BLASTN 2.2.26+ [I/O Module of SeqAn-2.4.1, http://www.seqan.de]
 # Query: qry349
 # Database: db_nucl_bs_fm.fasta.gz.lba
@@ -2914,17 +2982,20 @@ qry391	ref877	76.15	130	29	2	1	130	134	261	3e-19	88.7
 # Query: qry392
 # Database: db_nucl_bs_fm.fasta.gz.lba
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 4 hits found
+# 6 hits found
 qry392	ref392	100.00	130	0	0	1	130	284	413	2e-63	 236
 qry392	ref510	90.91	55	5	0	128	74	74	128	6e-16	77.9
 qry392	ref302	93.75	48	3	0	121	74	594	641	8e-15	74.3
 qry392	ref550	85.96	57	8	0	120	64	107	163	6e-13	68.0
+qry392	ref41	91.49	47	3	1	74	120	446	491	7e-12	64.4
+qry392	ref416	87.23	47	6	0	74	120	453	499	3e-10	59.0
 # BLASTN 2.2.26+ [I/O Module of SeqAn-2.4.1, http://www.seqan.de]
 # Query: qry393
 # Database: db_nucl_bs_fm.fasta.gz.lba
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 1 hits found
+# 2 hits found
 qry393	ref393	100.00	130	0	0	1	130	418	547	2e-63	 236
+qry393	ref83	76.19	84	14	2	120	43	372	455	3e-10	59.0
 # BLASTN 2.2.26+ [I/O Module of SeqAn-2.4.1, http://www.seqan.de]
 # Query: qry394
 # Database: db_nucl_bs_fm.fasta.gz.lba
@@ -3106,8 +3177,10 @@ qry417	ref417	100.00	130	0	0	1	130	592	721	2e-63	 236
 # Query: qry418
 # Database: db_nucl_bs_fm.fasta.gz.lba
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 1 hits found
+# 3 hits found
 qry418	ref418	100.00	130	0	0	1	130	454	583	2e-63	 236
+qry418	ref237	85.45	55	7	1	63	10	983	1037	9e-11	60.8
+qry418	ref891	86.27	51	4	1	60	10	199	246	2e-10	59.9
 # BLASTN 2.2.26+ [I/O Module of SeqAn-2.4.1, http://www.seqan.de]
 # Query: qry419
 # Database: db_nucl_bs_fm.fasta.gz.lba
@@ -3186,8 +3259,10 @@ qry429	ref429	90.77	130	12	0	1	130	198	327	4e-47	 182
 # Query: qry430
 # Database: db_nucl_bs_fm.fasta.gz.lba
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 1 hits found
+# 3 hits found
 qry430	ref430	100.00	130	0	0	1	130	397	526	2e-63	 236
+qry430	ref43	83.58	67	8	2	24	88	864	929	2e-12	66.2
+qry430	ref891	90.91	44	4	0	45	88	179	222	3e-11	62.6
 # BLASTN 2.2.26+ [I/O Module of SeqAn-2.4.1, http://www.seqan.de]
 # Query: qry431
 # Database: db_nucl_bs_fm.fasta.gz.lba
@@ -3500,8 +3575,9 @@ qry475	ref475	100.00	129	0	0	1	129	157	285	7e-63	 234
 # Query: qry476
 # Database: db_nucl_bs_fm.fasta.gz.lba
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 1 hits found
+# 2 hits found
 qry476	ref476	100.00	130	0	0	1	130	502	631	2e-63	 236
+qry476	ref363	84.38	64	4	3	58	119	391	450	1e-11	63.5
 # BLASTN 2.2.26+ [I/O Module of SeqAn-2.4.1, http://www.seqan.de]
 # Query: qry477
 # Database: db_nucl_bs_fm.fasta.gz.lba
@@ -3564,7 +3640,7 @@ qry481	ref481	100.00	130	0	0	1	130	444	573	2e-63	 236
 # Query: qry482
 # Database: db_nucl_bs_fm.fasta.gz.lba
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 15 hits found
+# 22 hits found
 qry482	ref482	100.00	130	0	0	1	130	233	362	2e-63	 236
 qry482	ref482	85.60	125	18	0	6	130	238	362	3e-36	 146
 qry482	ref659	82.35	85	11	2	20	104	271	351	5e-17	81.5
@@ -3580,6 +3656,13 @@ qry482	ref355	82.05	78	8	3	96	20	478	550	9e-14	70.7
 qry482	ref935	93.48	46	3	0	20	65	33	78	9e-14	70.7
 qry482	ref161	82.43	74	11	2	20	91	4	77	3e-13	68.9
 qry482	ref161	91.49	47	4	0	20	66	32	78	6e-13	68.0
+qry482	ref161	82.19	73	11	2	21	91	5	77	1e-12	67.1
+qry482	ref81	91.30	46	4	0	65	20	531	576	2e-12	66.2
+qry482	ref525	91.30	46	4	0	20	65	190	235	2e-12	66.2
+qry482	ref662	91.11	45	4	0	21	65	1046	1090	7e-12	64.4
+qry482	ref768	85.00	60	4	2	92	35	996	1052	7e-12	64.4
+qry482	ref66	92.86	42	3	0	35	76	316	357	1e-11	63.5
+qry482	ref254	89.80	49	4	1	20	68	399	446	1e-11	63.5
 # BLASTN 2.2.26+ [I/O Module of SeqAn-2.4.1, http://www.seqan.de]
 # Query: qry483
 # Database: db_nucl_bs_fm.fasta.gz.lba
@@ -3609,14 +3692,16 @@ qry486	ref486	100.00	130	0	0	1	130	548	677	2e-63	 236
 # Query: qry487
 # Database: db_nucl_bs_fm.fasta.gz.lba
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 1 hits found
+# 2 hits found
 qry487	ref487	100.00	130	0	0	1	130	191	320	2e-63	 236
+qry487	ref633	75.00	96	17	3	35	130	340	428	3e-10	59.0
 # BLASTN 2.2.26+ [I/O Module of SeqAn-2.4.1, http://www.seqan.de]
 # Query: qry488
 # Database: db_nucl_bs_fm.fasta.gz.lba
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 1 hits found
+# 2 hits found
 qry488	ref488	100.00	130	0	0	1	130	319	448	2e-63	 236
+qry488	ref26	76.92	104	13	6	125	29	187	286	1e-11	63.5
 # BLASTN 2.2.26+ [I/O Module of SeqAn-2.4.1, http://www.seqan.de]
 # Query: qry489
 # Database: db_nucl_bs_fm.fasta.gz.lba
@@ -4340,8 +4425,9 @@ qry591	ref591	100.00	130	0	0	1	130	309	438	2e-63	 236
 # Query: qry592
 # Database: db_nucl_bs_fm.fasta.gz.lba
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 1 hits found
+# 2 hits found
 qry592	ref592	100.00	130	0	0	1	130	376	505	2e-63	 236
+qry592	ref624	84.75	59	5	2	57	111	32	90	5e-11	61.7
 # BLASTN 2.2.26+ [I/O Module of SeqAn-2.4.1, http://www.seqan.de]
 # Query: qry593
 # Database: db_nucl_bs_fm.fasta.gz.lba
@@ -4370,10 +4456,11 @@ qry595	ref418	90.14	71	6	1	71	1	755	824	8e-21	94.2
 # Query: qry596
 # Database: db_nucl_bs_fm.fasta.gz.lba
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 3 hits found
+# 4 hits found
 qry596	ref596	100.00	130	0	0	1	130	444	573	2e-63	 236
 qry596	ref515	79.67	123	16	3	1	116	419	539	5e-24	 105
 qry596	ref819	82.89	76	12	1	75	1	267	342	2e-15	76.1
+qry596	ref487	86.44	59	5	3	20	76	82	139	9e-11	60.8
 # BLASTN 2.2.26+ [I/O Module of SeqAn-2.4.1, http://www.seqan.de]
 # Query: qry597
 # Database: db_nucl_bs_fm.fasta.gz.lba
@@ -4610,8 +4697,9 @@ qry627	ref627	100.00	130	0	0	1	130	284	413	2e-63	 236
 # Query: qry628
 # Database: db_nucl_bs_fm.fasta.gz.lba
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 1 hits found
+# 2 hits found
 qry628	ref628	100.00	130	0	0	1	130	103	232	2e-63	 236
+qry628	ref850	97.06	34	1	0	36	3	611	644	6e-10	58.1
 # BLASTN 2.2.26+ [I/O Module of SeqAn-2.4.1, http://www.seqan.de]
 # Query: qry629
 # Database: db_nucl_bs_fm.fasta.gz.lba
@@ -4816,12 +4904,13 @@ qry656	ref656	100.00	130	0	0	1	130	116	245	2e-63	 236
 # Query: qry657
 # Database: db_nucl_bs_fm.fasta.gz.lba
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 5 hits found
+# 6 hits found
 qry657	ref657	100.00	130	0	0	1	130	185	314	2e-63	 236
 qry657	ref641	90.62	128	12	0	128	1	492	619	5e-46	 178
 qry657	ref768	89.23	130	14	0	130	1	476	605	2e-44	 173
 qry657	ref447	83.08	130	22	0	130	1	197	326	1e-33	 137
 qry657	ref105	82.03	128	23	0	128	1	334	461	4e-31	 128
+qry657	ref101	87.76	49	6	0	128	80	1036	1084	3e-11	62.6
 # BLASTN 2.2.26+ [I/O Module of SeqAn-2.4.1, http://www.seqan.de]
 # Query: qry658
 # Database: db_nucl_bs_fm.fasta.gz.lba
@@ -4969,7 +5058,7 @@ qry677	ref677	85.37	123	18	0	8	130	343	465	3e-35	 142
 # Query: qry678
 # Database: db_nucl_bs_fm.fasta.gz.lba
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 17 hits found
+# 21 hits found
 qry678	ref678	100.00	130	0	0	1	130	555	684	2e-63	 236
 qry678	ref678	81.45	124	23	0	3	126	557	680	6e-29	 121
 qry678	ref807	92.54	67	5	0	37	103	547	613	2e-22	99.6
@@ -4987,11 +5076,15 @@ qry678	ref131	95.83	48	2	0	56	103	218	265	3e-16	78.8
 qry678	ref458	83.33	78	9	2	30	103	238	315	6e-16	77.9
 qry678	ref21	92.16	51	2	1	103	55	632	682	3e-14	72.5
 qry678	ref86	84.51	71	9	2	99	30	501	570	3e-14	72.5
+qry678	ref678	85.25	61	8	1	37	97	973	1032	1e-12	67.1
+qry678	ref458	90.00	50	4	1	103	55	267	316	4e-12	65.3
+qry678	ref705	89.36	47	5	0	56	102	545	591	1e-11	63.5
+qry678	ref314	97.06	34	1	0	110	77	695	728	6e-10	58.1
 # BLASTN 2.2.26+ [I/O Module of SeqAn-2.4.1, http://www.seqan.de]
 # Query: qry679
 # Database: db_nucl_bs_fm.fasta.gz.lba
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 20 hits found
+# 21 hits found
 qry679	ref679	100.00	130	0	0	1	130	508	637	2e-63	 236
 qry679	ref125	96.15	130	5	0	1	130	649	778	1e-56	 213
 qry679	ref550	96.75	123	4	0	8	130	2	124	3e-54	 205
@@ -5012,6 +5105,7 @@ qry679	ref39	85.47	117	11	2	14	130	180	290	3e-32	 132
 qry679	ref681	94.12	85	5	0	46	130	1	85	3e-32	 132
 qry679	ref1	91.49	94	7	1	3	96	770	862	6e-32	 131
 qry679	ref425	98.11	53	1	0	78	130	444	496	3e-20	92.4
+qry679	ref779	94.87	39	2	0	92	130	543	581	3e-11	62.6
 # BLASTN 2.2.26+ [I/O Module of SeqAn-2.4.1, http://www.seqan.de]
 # Query: qry680
 # Database: db_nucl_bs_fm.fasta.gz.lba
@@ -5022,8 +5116,9 @@ qry680	ref680	100.00	130	0	0	1	130	172	301	2e-63	 236
 # Query: qry681
 # Database: db_nucl_bs_fm.fasta.gz.lba
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 1 hits found
+# 2 hits found
 qry681	ref681	100.00	130	0	0	1	130	143	272	2e-63	 236
+qry681	ref211	77.08	96	17	4	114	21	503	595	5e-11	61.7
 # BLASTN 2.2.26+ [I/O Module of SeqAn-2.4.1, http://www.seqan.de]
 # Query: qry682
 # Database: db_nucl_bs_fm.fasta.gz.lba
@@ -5053,9 +5148,11 @@ qry684	ref135	94.64	56	2	1	1	55	3	58	4e-18	85.1
 # Query: qry685
 # Database: db_nucl_bs_fm.fasta.gz.lba
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 2 hits found
+# 4 hits found
 qry685	ref685	100.00	130	0	0	1	130	527	656	2e-63	 236
 qry685	ref685	86.21	116	16	0	1	116	527	642	4e-34	 138
+qry685	ref41	78.79	99	16	5	116	22	593	690	1e-12	67.1
+qry685	ref196	77.53	89	18	2	110	23	211	298	7e-12	64.4
 # BLASTN 2.2.26+ [I/O Module of SeqAn-2.4.1, http://www.seqan.de]
 # Query: qry686
 # Database: db_nucl_bs_fm.fasta.gz.lba
@@ -5189,13 +5286,14 @@ qry704	ref704	88.89	126	14	0	1	126	375	500	3e-42	 165
 # Query: qry705
 # Database: db_nucl_bs_fm.fasta.gz.lba
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 6 hits found
+# 7 hits found
 qry705	ref705	100.00	130	0	0	1	130	349	478	2e-63	 236
 qry705	ref705	86.92	130	17	0	1	130	349	478	2e-40	 159
 qry705	ref902	81.25	96	6	6	29	114	313	406	1e-15	77.0
 qry705	ref540	80.25	81	13	1	42	119	305	385	1e-14	73.4
 qry705	ref734	79.12	91	11	3	6	95	482	565	1e-14	73.4
 qry705	ref71	78.79	99	13	5	34	129	350	443	2e-13	69.8
+qry705	ref137	86.21	58	7	1	34	90	306	363	2e-12	66.2
 # BLASTN 2.2.26+ [I/O Module of SeqAn-2.4.1, http://www.seqan.de]
 # Query: qry706
 # Database: db_nucl_bs_fm.fasta.gz.lba
@@ -5394,7 +5492,7 @@ qry733	ref733	100.00	130	0	0	1	130	400	529	2e-63	 236
 # Query: qry734
 # Database: db_nucl_bs_fm.fasta.gz.lba
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 8 hits found
+# 16 hits found
 qry734	ref734	100.00	130	0	0	1	130	108	237	2e-63	 236
 qry734	ref617	92.31	52	4	0	52	1	57	108	1e-15	77.0
 qry734	ref202	84.29	70	9	1	69	2	623	692	4e-15	75.2
@@ -5403,6 +5501,14 @@ qry734	ref727	90.57	53	5	0	1	53	539	591	8e-15	74.3
 qry734	ref6	92.00	50	4	0	53	4	58	107	1e-14	73.4
 qry734	ref41	78.64	103	15	5	1	97	648	749	5e-14	71.6
 qry734	ref107	79.49	78	16	0	78	1	28	105	2e-13	69.8
+qry734	ref139	93.18	44	3	0	14	57	74	117	1e-12	67.1
+qry734	ref224	89.80	49	5	0	3	51	422	470	1e-12	67.1
+qry734	ref282	83.33	66	10	1	69	5	247	312	1e-12	67.1
+qry734	ref360	97.37	38	1	0	47	10	288	325	4e-12	65.3
+qry734	ref548	89.58	48	5	0	1	48	549	596	4e-12	65.3
+qry734	ref116	84.62	65	6	3	1	63	786	848	1e-11	63.5
+qry734	ref465	86.00	50	7	0	4	53	1165	1214	2e-10	59.9
+qry734	ref131	92.31	39	3	0	54	16	168	206	6e-10	58.1
 # BLASTN 2.2.26+ [I/O Module of SeqAn-2.4.1, http://www.seqan.de]
 # Query: qry735
 # Database: db_nucl_bs_fm.fasta.gz.lba
@@ -5452,8 +5558,10 @@ qry738	ref738	90.40	125	12	0	6	130	555	679	2e-44	 173
 # Query: qry739
 # Database: db_nucl_bs_fm.fasta.gz.lba
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 1 hits found
+# 3 hits found
 qry739	ref739	100.00	130	0	0	1	130	334	463	2e-63	 236
+qry739	ref575	85.96	57	6	1	130	74	813	867	4e-12	65.3
+qry739	ref420	88.64	44	5	0	18	61	860	903	6e-10	58.1
 # BLASTN 2.2.26+ [I/O Module of SeqAn-2.4.1, http://www.seqan.de]
 # Query: qry740
 # Database: db_nucl_bs_fm.fasta.gz.lba
@@ -5902,9 +6010,11 @@ qry803	ref803	85.94	128	18	0	3	130	223	350	6e-38	 151
 # Query: qry804
 # Database: db_nucl_bs_fm.fasta.gz.lba
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 2 hits found
+# 4 hits found
 qry804	ref804	100.00	130	0	0	1	130	569	698	2e-63	 236
 qry804	ref805	100.00	130	0	0	1	130	75	204	2e-63	 236
+qry804	ref517	73.68	133	28	5	130	1	365	493	1e-12	67.1
+qry804	ref351	70.68	133	30	3	1	127	340	469	2e-10	59.9
 # BLASTN 2.2.26+ [I/O Module of SeqAn-2.4.1, http://www.seqan.de]
 # Query: qry805
 # Database: db_nucl_bs_fm.fasta.gz.lba
@@ -6091,12 +6201,13 @@ qry824	ref828	88.46	52	6	0	52	1	5	56	6e-13	68.0
 # Query: qry825
 # Database: db_nucl_bs_fm.fasta.gz.lba
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 5 hits found
+# 6 hits found
 qry825	ref825	100.00	129	0	0	1	129	219	347	7e-63	 234
 qry825	ref14	90.70	129	12	0	129	1	1037	1165	1e-46	 180
 qry825	ref893	88.98	127	12	1	127	1	589	713	5e-42	 164
 qry825	ref973	88.37	129	14	1	1	129	495	622	2e-41	 163
 qry825	ref915	92.38	105	8	0	1	105	844	948	5e-39	 155
+qry825	ref469	88.00	50	5	1	83	35	949	998	9e-11	60.8
 # BLASTN 2.2.26+ [I/O Module of SeqAn-2.4.1, http://www.seqan.de]
 # Query: qry826
 # Database: db_nucl_bs_fm.fasta.gz.lba
@@ -6264,8 +6375,10 @@ qry845	ref915	88.24	85	6	1	129	45	177	257	4e-25	 109
 # Query: qry846
 # Database: db_nucl_bs_fm.fasta.gz.lba
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 1 hits found
+# 3 hits found
 qry846	ref846	100.00	130	0	0	1	130	230	359	2e-63	 236
+qry846	ref31	90.91	44	4	0	3	46	226	269	3e-11	62.6
+qry846	ref401	81.97	61	10	1	3	62	702	762	6e-10	58.1
 # BLASTN 2.2.26+ [I/O Module of SeqAn-2.4.1, http://www.seqan.de]
 # Query: qry847
 # Database: db_nucl_bs_fm.fasta.gz.lba
@@ -6587,10 +6700,11 @@ qry878	ref878	86.61	127	17	0	4	130	443	569	1e-38	 154
 # Query: qry879
 # Database: db_nucl_bs_fm.fasta.gz.lba
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 3 hits found
+# 4 hits found
 qry879	ref879	100.00	130	0	0	1	130	248	377	2e-63	 236
 qry879	ref879	81.97	122	19	1	6	127	46	164	1e-28	 120
 qry879	ref98	87.50	88	9	1	93	6	170	255	7e-25	 108
+qry879	ref868	93.02	43	3	0	87	129	1	43	4e-12	65.3
 # BLASTN 2.2.26+ [I/O Module of SeqAn-2.4.1, http://www.seqan.de]
 # Query: qry880
 # Database: db_nucl_bs_fm.fasta.gz.lba
@@ -6624,7 +6738,7 @@ qry882	ref882	86.92	130	17	0	1	130	403	532	2e-40	 159
 # Query: qry883
 # Database: db_nucl_bs_fm.fasta.gz.lba
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 14 hits found
+# 15 hits found
 qry883	ref883	100.00	130	0	0	1	130	531	660	2e-63	 236
 qry883	ref515	86.61	127	15	1	3	129	393	517	6e-38	 151
 qry883	ref125	85.94	128	16	1	2	129	662	787	4e-37	 148
@@ -6639,6 +6753,7 @@ qry883	ref626	86.73	113	13	1	17	129	2	112	5e-33	 135
 qry883	ref586	83.72	129	19	2	130	2	73	199	3e-32	 132
 qry883	ref31	84.30	121	17	1	9	129	253	371	6e-32	 131
 qry883	ref237	87.06	85	11	0	2	86	1002	1086	5e-24	 105
+qry883	ref128	91.30	46	4	0	34	79	573	618	2e-12	66.2
 # BLASTN 2.2.26+ [I/O Module of SeqAn-2.4.1, http://www.seqan.de]
 # Query: qry884
 # Database: db_nucl_bs_fm.fasta.gz.lba
@@ -6680,8 +6795,9 @@ qry889	ref889	100.00	130	0	0	1	130	165	294	2e-63	 236
 # Query: qry890
 # Database: db_nucl_bs_fm.fasta.gz.lba
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 1 hits found
+# 2 hits found
 qry890	ref890	100.00	130	0	0	1	130	414	543	2e-63	 236
+qry890	ref902	78.57	84	11	4	98	15	640	716	2e-10	59.9
 # BLASTN 2.2.26+ [I/O Module of SeqAn-2.4.1, http://www.seqan.de]
 # Query: qry891
 # Database: db_nucl_bs_fm.fasta.gz.lba
@@ -6712,7 +6828,7 @@ qry893	ref777	84.44	135	16	2	1	130	398	532	3e-36	 146
 # Query: qry894
 # Database: db_nucl_bs_fm.fasta.gz.lba
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 11 hits found
+# 14 hits found
 qry894	ref894	100.00	127	0	0	1	127	370	496	8e-62	 230
 qry894	ref125	80.21	96	12	3	35	126	582	674	5e-17	81.5
 qry894	ref125	79.38	97	11	3	35	127	582	673	9e-17	80.6
@@ -6724,6 +6840,9 @@ qry894	ref125	78.26	92	11	3	35	122	582	668	5e-14	71.6
 qry894	ref125	78.02	91	11	3	35	121	582	667	2e-13	69.8
 qry894	ref125	77.78	90	11	3	35	120	582	666	6e-13	68.0
 qry894	ref347	85.25	61	7	1	69	127	588	648	6e-13	68.0
+qry894	ref125	77.53	89	11	3	35	119	582	665	2e-12	66.2
+qry894	ref679	88.24	51	2	2	74	124	487	533	9e-11	60.8
+qry894	ref679	88.00	50	2	2	74	123	487	532	3e-10	59.0
 # BLASTN 2.2.26+ [I/O Module of SeqAn-2.4.1, http://www.seqan.de]
 # Query: qry895
 # Database: db_nucl_bs_fm.fasta.gz.lba
@@ -6990,7 +7109,7 @@ qry928	ref928	100.00	130	0	0	1	130	137	266	2e-63	 236
 # Query: qry929
 # Database: db_nucl_bs_fm.fasta.gz.lba
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 8 hits found
+# 12 hits found
 qry929	ref929	100.00	130	0	0	1	130	338	467	2e-63	 236
 qry929	ref929	100.00	126	0	0	1	126	338	463	3e-61	 229
 qry929	ref929	97.69	130	3	0	1	130	338	467	2e-59	 222
@@ -6999,6 +7118,10 @@ qry929	ref929	100.00	118	0	0	1	118	338	455	6e-57	 214
 qry929	ref929	100.00	114	0	0	1	114	338	451	1e-54	 207
 qry929	ref929	100.00	110	0	0	1	110	338	447	1e-52	 200
 qry929	ref929	100.00	106	0	0	1	106	338	443	2e-50	 192
+qry929	ref180	90.00	50	4	1	50	1	763	811	4e-12	65.3
+qry929	ref849	85.45	55	8	0	55	1	944	998	7e-12	64.4
+qry929	ref849	85.96	57	5	2	55	1	931	986	5e-11	61.7
+qry929	ref698	83.08	65	7	3	1	62	113	176	3e-10	59.0
 # BLASTN 2.2.26+ [I/O Module of SeqAn-2.4.1, http://www.seqan.de]
 # Query: qry930
 # Database: db_nucl_bs_fm.fasta.gz.lba
@@ -7176,14 +7299,17 @@ qry948	ref215	95.60	91	3	1	1	91	410	499	1e-35	 144
 # Query: qry949
 # Database: db_nucl_bs_fm.fasta.gz.lba
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 1 hits found
+# 3 hits found
 qry949	ref949	100.00	129	0	0	1	129	337	465	7e-63	 234
+qry949	ref157	94.87	39	2	0	105	67	71	109	3e-11	62.6
+qry949	ref793	92.86	42	0	1	65	106	346	384	5e-11	61.7
 # BLASTN 2.2.26+ [I/O Module of SeqAn-2.4.1, http://www.seqan.de]
 # Query: qry950
 # Database: db_nucl_bs_fm.fasta.gz.lba
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 1 hits found
+# 2 hits found
 qry950	ref950	100.00	130	0	0	1	130	548	677	2e-63	 236
+qry950	ref950	100.00	32	0	0	130	99	646	677	3e-10	59.0
 # BLASTN 2.2.26+ [I/O Module of SeqAn-2.4.1, http://www.seqan.de]
 # Query: qry951
 # Database: db_nucl_bs_fm.fasta.gz.lba
@@ -7362,7 +7488,7 @@ qry973	ref99	77.36	106	22	2	105	1	1	105	1e-15	77.0
 # Query: qry974
 # Database: db_nucl_bs_fm.fasta.gz.lba
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 8 hits found
+# 9 hits found
 qry974	ref974	100.00	130	0	0	1	130	351	480	2e-63	 236
 qry974	ref418	96.15	130	5	0	1	130	817	946	1e-56	 213
 qry974	ref959	89.23	130	14	0	130	1	297	426	2e-44	 173
@@ -7371,6 +7497,7 @@ qry974	ref845	87.60	129	16	0	129	1	50	178	4e-41	 162
 qry974	ref974	81.54	130	24	0	1	130	351	480	7e-31	 128
 qry974	ref790	91.80	61	5	0	61	1	1	61	3e-19	88.7
 qry974	ref595	89.66	58	4	2	56	1	304	361	5e-14	71.6
+qry974	ref832	97.37	38	1	0	38	1	8	45	4e-12	65.3
 # BLASTN 2.2.26+ [I/O Module of SeqAn-2.4.1, http://www.seqan.de]
 # Query: qry975
 # Database: db_nucl_bs_fm.fasta.gz.lba
@@ -7494,7 +7621,7 @@ qry992	ref992	88.46	130	15	0	1	130	531	660	4e-43	 168
 # Query: qry993
 # Database: db_nucl_bs_fm.fasta.gz.lba
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 11 hits found
+# 12 hits found
 qry993	ref993	100.00	130	0	0	1	130	486	615	2e-63	 236
 qry993	ref367	94.62	130	7	0	1	130	452	581	6e-54	 204
 qry993	ref860	93.85	130	8	0	1	130	208	337	1e-52	 200
@@ -7506,6 +7633,7 @@ qry993	ref663	88.50	113	13	0	113	1	99	211	1e-36	 146
 qry993	ref915	92.77	83	6	0	48	130	253	335	9e-30	 124
 qry993	ref736	89.47	76	8	0	55	130	1	76	3e-23	 102
 qry993	ref736	81.58	76	14	0	55	130	1	76	4e-15	75.2
+qry993	ref97	91.30	46	4	0	130	85	542	587	2e-12	66.2
 # BLASTN 2.2.26+ [I/O Module of SeqAn-2.4.1, http://www.seqan.de]
 # Query: qry994
 # Database: db_nucl_bs_fm.fasta.gz.lba
