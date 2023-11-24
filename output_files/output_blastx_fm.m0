@@ -34307,8 +34307,8 @@ AACQ01000295.1.1787                                                  45  8e-08
 AACQ01000290.6929.8705                                               45  8e-08
 AACE03000006.1220798.1222122                                         36  3e-05
 AAAA02037931.5029.6817                                               35  7e-05
-AABZ01000315.5142.6931                                               33  0.0002
-AACE03000034.8659.10446                                              33  0.0003
+AABZ01000315.5142.6931                                               34  0.0001
+AACE03000034.8659.10446                                              33  0.0002
 AACG02000231.1096.2885                                               33  0.0003
 AACY020379403.855.2641                                               30  0.003
 AACG02000245.881.2683                                                29  0.005
@@ -34401,25 +34401,25 @@ Sbjct  236  ALHWACWGIRTFTLKKLECSKQAFARIR*HGI  267
 > AABZ01000315.5142.6931
 Length=596
 
- Score =  33.9 bits (76), Expect =  0.0002
- Identities = 18/21 (86%), Positives = 19/21 (90%), Gaps = 0/21 (0%)
+ Score =  34.7 bits (78), Expect =  0.0001
+ Identities = 22/33 (67%), Positives = 23/33 (70%), Gaps = 7/33 (21%)
  Frame = -3
 
-Query  80   EPGLLL*KN*SVQSRPQARIF  18 
-            EPGLLL*KN*SVQSR  ARI+
-Sbjct  244  EPGLLL*KN*SVQSRRIARIY  264
+Query  95   PSGGP-------EPGLLL*KN*SVQSRPQARIF  18 
+            PSG P       EPGLLL*KN*SVQSR  ARI+
+Sbjct  232  PSG*P*VLVALGEPGLLL*KN*SVQSRRIARIY  264
 
 
 > AACE03000034.8659.10446
 Length=595
 
- Score =  33.1 bits (74), Expect =  0.0003
- Identities = 19/25 (76%), Positives = 19/25 (76%), Gaps = 0/25 (0%)
+ Score =  33.9 bits (76), Expect =  0.0002
+ Identities = 23/37 (62%), Positives = 23/37 (62%), Gaps = 7/37 (19%)
  Frame = -3
 
-Query  80   EPGLLL*KN*SVQSRPQARIFSME*  6  
-            EPGLLL*KN*SVQSR      SME*
-Sbjct  243  EPGLLL*KN*SVQSRRLLEYISME*  267
+Query  95   PSGGP-------EPGLLL*KN*SVQSRPQARIFSME*  6  
+            PSG P       EPGLLL*KN*SVQSR      SME*
+Sbjct  231  PSG*PWVLVALGEPGLLL*KN*SVQSRRLLEYISME*  267
 
 
 > AACG02000231.1096.2885
@@ -103168,7 +103168,7 @@ AACY020359284.2920.4399                                              50  3e-09
 AAAP01003867.42237.43700                                             48  8e-09
 AACY020153442.459.1802                                               44  1e-07
 AAAL02000003.178628.180172                                           33  0.0002
-AACY020441524.679.2191                                               29  0.005
+AACY020441524.679.2191                                               31  0.001
 AACY020018870.263.1547                                               28  0.008
 
 ALIGNMENTS
@@ -103295,13 +103295,13 @@ Sbjct  365  SSPTKGLYNPKAFFTHA  381
 > AACY020441524.679.2191
 Length=503
 
- Score =  29.3 bits (64), Expect =  0.005
- Identities = 19/37 (51%), Positives = 22/37 (59%), Gaps = 8/37 (22%)
+ Score =  31.2 bits (69), Expect =  0.001
+ Identities = 20/38 (53%), Positives = 23/38 (61%), Gaps = 8/38 (21%)
  Frame = -3
 
-Query  89   S*PGLLLWVPS--------LSSPPKELYNPRAFFTHA  3  
-            +*P L+L V S        L S  K LYNP+AFFTHA
-Sbjct  339  N*PVLILQVTSRQ*GINLLLFSLLKVLYNPKAFFTHA  375
+Query  92   RS*PGLLLWVPS--------LSSPPKELYNPRAFFTHA  3  
+            R+*P L+L V S        L S  K LYNP+AFFTHA
+Sbjct  338  RN*PVLILQVTSRQ*GINLLLFSLLKVLYNPKAFFTHA  375
 
 
 > AACY020018870.263.1547
